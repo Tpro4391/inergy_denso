@@ -1,0 +1,384 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "a66f2a00-f349-11ef-902b-e3a157f1ab5b"
+    },
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "a675e0c0-f349-11ef-902b-e3a157f1ab5b"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "a66f2a00-f349-11ef-902b-e3a157f1ab5b"
+    },
+    "name" : "Tinh tong ngay thang nam",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 1,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 0,
+      "toIndex" : 4,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 0,
+      "toIndex" : 6,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 0,
+      "toIndex" : 8,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 2,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 3,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 5,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 5,
+      "toIndex" : 3,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 7,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 7,
+      "toIndex" : 3,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 8,
+      "toIndex" : 9,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 9,
+      "toIndex" : 3,
+      "type" : "Success"
+    } ],
+    "firstNodeIndex" : 0,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 50,
+        "layoutY" : 251
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "var now = new Date();\nvar ngay = now.getDate();\nif(ngay<10){\n   ngay = \"0\"+ngay;\n}\nvar thang = now.getMonth()+1;\nif(thang<10){\n   thang = \"0\"+thang;\n}\nvar nam = now.getFullYear();\nvar daystr = nam + \"-\" + thang + \"-\" + ngay + \" 00:00:00\";\nvar thangstr = nam + \"-\" + thang + \"-01 00:00:00\";\nvar namstr = nam + \"-01-01 00:00:00\";\nvar nday = new Date(daystr);\nvar nthang = new Date(thangstr);\nvar nnam = new Date(namstr);\nvar day = now.getDay()-1;\nif(day==-1){\n    day = 6;\n}\n// var dautuan = new Date(now.setDate(now.getDate() - now.getDay()));\n// var tuanstr\n\nmetadata.tsngay = nday.getTime();\nmetadata.tsthang = nthang.getTime();\nmetadata.tsnam = nnam.getTime();\nmetadata.tstuan = nday.getTime() - day*86400000;\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "// let now = new Date();\n// var ngay = moment().startOf('day').toDate();\n// let tuan = moment().startOf('isoWeek').toDate();\n// let thang = moment().startOf('month').toDate();\n// let nam = moment().startOf('year').toDate();\nmetadata.tsngay = 123456;\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : {
+        "allEnabled" : false,
+        "allEnabledUntil" : 1740469212257,
+        "failuresEnabled" : true
+      },
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a675e0c0-f349-11ef-902b-e3a157f1ab5b"
+      },
+      "name" : "Get ts ngay thang nam",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 332,
+        "layoutY" : 176
+      },
+      "configuration" : {
+        "latestTsKeyNames" : [ "${key}" ],
+        "aggregation" : "NONE",
+        "fetchMode" : "FIRST",
+        "orderBy" : "ASC",
+        "limit" : 1000,
+        "useMetadataIntervalPatterns" : true,
+        "startInterval" : 2,
+        "startIntervalTimeUnit" : "MINUTES",
+        "endInterval" : 1,
+        "endIntervalTimeUnit" : "MINUTES",
+        "startIntervalPattern" : "${tsngay}",
+        "endIntervalPattern" : "${ts}"
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a676f230-f349-11ef-902b-e3a157f1ab5b"
+      },
+      "name" : "kWh đầu ngày",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetTelemetryNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 608,
+        "layoutY" : 177
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "var key = metadata.key;\nvar kWh0 = metadata[key];\nkWh0 = kWh0.replace(/\\\"/g, '');\nvar E_today = msg[key] - parseFloat(kWh0);\nvar nmsg = {\n};\nnmsg[key+\"_today\"] = E_today;\nvar newType = \"POST_ATTRIBUTES_REQUEST\";\nreturn {\n    msg: nmsg,\n    metadata: metadata,\n    msgType: newType\n};",
+        "tbelScript" : "var nmsg = {\n    \"E_today\": msg.kWh - metadata.kWh\n}\nreturn {msg: nmsg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : {
+        "allEnabled" : false,
+        "allEnabledUntil" : 1740714107358,
+        "failuresEnabled" : false
+      },
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a6771940-f349-11ef-902b-e3a157f1ab5b"
+      },
+      "name" : "Tính E today",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 910,
+        "layoutY" : 287
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "notifyDevice" : false,
+        "processingSettings" : {
+          "type" : "ON_EVERY_MESSAGE"
+        },
+        "sendAttributesUpdatedNotification" : false,
+        "updateAttributesOnlyOnValueChange" : false
+      },
+      "configurationVersion" : 3,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a6774050-f349-11ef-902b-e3a157f1ab5b"
+      },
+      "name" : "Save",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 342,
+        "layoutY" : 330
+      },
+      "configuration" : {
+        "latestTsKeyNames" : [ "${key}" ],
+        "aggregation" : "NONE",
+        "fetchMode" : "FIRST",
+        "orderBy" : "ASC",
+        "limit" : 1000,
+        "useMetadataIntervalPatterns" : true,
+        "startInterval" : 2,
+        "startIntervalTimeUnit" : "MINUTES",
+        "endInterval" : 1,
+        "endIntervalTimeUnit" : "MINUTES",
+        "startIntervalPattern" : "${tsthang}",
+        "endIntervalPattern" : "${ts}"
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a6776760-f349-11ef-902b-e3a157f1ab5b"
+      },
+      "name" : "kWh tháng",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetTelemetryNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 603,
+        "layoutY" : 327
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "var key = metadata.key;\nvar val0 = metadata[key];\nval0 = val0.replace(/\\\"/g, '');\nvar nmsg = {\n};\nnmsg[key+\"_month\"] = msg[key] - parseFloat(val0);\nvar newType = \"POST_ATTRIBUTES_REQUEST\";\nreturn {\n    msg: nmsg,\n    metadata: metadata,\n    msgType: newType\n};",
+        "tbelScript" : "var nmsg = {\n    \"E_today\": msg.kWh - metadata.kWh\n}\nreturn {msg: nmsg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a6778e70-f349-11ef-902b-e3a157f1ab5b"
+      },
+      "name" : "Tính E thang",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 348,
+        "layoutY" : 400
+      },
+      "configuration" : {
+        "latestTsKeyNames" : [ "${key}" ],
+        "aggregation" : "NONE",
+        "fetchMode" : "FIRST",
+        "orderBy" : "ASC",
+        "limit" : 1000,
+        "useMetadataIntervalPatterns" : true,
+        "startInterval" : 2,
+        "startIntervalTimeUnit" : "MINUTES",
+        "endInterval" : 1,
+        "endIntervalTimeUnit" : "MINUTES",
+        "startIntervalPattern" : "${tsnam}",
+        "endIntervalPattern" : "${ts}"
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a677b580-f349-11ef-902b-e3a157f1ab5b"
+      },
+      "name" : "kWh năm",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetTelemetryNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 609,
+        "layoutY" : 397
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "var key = metadata.key;\nvar val0 = metadata[key];\nval0 = val0.replace(/\\\"/g, '');\nvar nmsg = {\n};\nnmsg[key+\"_year\"] = msg[key] - parseFloat(val0);\nvar newType = \"POST_ATTRIBUTES_REQUEST\";\nreturn {\n    msg: nmsg,\n    metadata: metadata,\n    msgType: newType\n};",
+        "tbelScript" : "var nmsg = {\n    \"E_today\": msg.kWh - metadata.kWh\n}\nreturn {msg: nmsg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a677dc90-f349-11ef-902b-e3a157f1ab5b"
+      },
+      "name" : "Tính E nam",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 337,
+        "layoutY" : 252
+      },
+      "configuration" : {
+        "latestTsKeyNames" : [ "${key}" ],
+        "aggregation" : "NONE",
+        "fetchMode" : "FIRST",
+        "orderBy" : "ASC",
+        "limit" : 1000,
+        "useMetadataIntervalPatterns" : true,
+        "startInterval" : 2,
+        "startIntervalTimeUnit" : "MINUTES",
+        "endInterval" : 1,
+        "endIntervalTimeUnit" : "MINUTES",
+        "startIntervalPattern" : "${tstuan}",
+        "endIntervalPattern" : "${ts}"
+      },
+      "configurationVersion" : 2,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a677dc91-f349-11ef-902b-e3a157f1ab5b"
+      },
+      "name" : "kWh tuan",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetTelemetryNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 607,
+        "layoutY" : 253
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "var key = metadata.key;\nvar val0 = metadata[key];\nval0 = val0.replace(/\\\"/g, '');\nvar nmsg = {\n};\nnmsg[key+\"_week\"] = msg[key] - parseFloat(val0);\nvar newType = \"POST_ATTRIBUTES_REQUEST\";\nreturn {\n    msg: nmsg,\n    metadata: metadata,\n    msgType: newType\n};",
+        "tbelScript" : "var nmsg = {\n    \"E_today\": msg.kWh - metadata.kWh\n}\nreturn {msg: nmsg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a67803a0-f349-11ef-902b-e3a157f1ab5b"
+      },
+      "name" : "Tính E tuan",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "c5ef7db0-f31e-11ef-83a6-378fabb0e742"
+    },
+    "to" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "a66f2a00-f349-11ef-902b-e3a157f1ab5b"
+    },
+    "type" : "Uses",
+    "typeGroup" : "COMMON",
+    "version" : 7437
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

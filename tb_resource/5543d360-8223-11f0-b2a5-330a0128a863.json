@@ -1,0 +1,40 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "data" : "PCEtLSBzYW1wbGUgcmVjdGFuZ2xlIC0tPgo8c3ZnIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L3N2Zz4=",
+    "descriptor" : {
+      "mediaType" : "image/svg+xml",
+      "width" : 200,
+      "height" : 200,
+      "size" : 98,
+      "etag" : "14ff58e829cc913ad0965544a39c2c2654688bebcbf0fb560109930c2c8d684d",
+      "previewDescriptor" : {
+        "mediaType" : "image/svg+xml",
+        "width" : 200,
+        "height" : 200,
+        "size" : 98,
+        "etag" : "14ff58e829cc913ad0965544a39c2c2654688bebcbf0fb560109930c2c8d684d"
+      }
+    },
+    "etag" : "14ff58e829cc913ad0965544a39c2c2654688bebcbf0fb560109930c2c8d684d",
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "5543d360-8223-11f0-b2a5-330a0128a863"
+    },
+    "fileName" : "none.svg",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "5543d360-8223-11f0-b2a5-330a0128a863"
+    },
+    "link" : "/api/images/tenant/none.svg",
+    "name" : "none.svg",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/ErdyteKumot1LOvOHq9rsbRexyMS0GyJ",
+    "publicResourceKey" : "ErdyteKumot1LOvOHq9rsbRexyMS0GyJ",
+    "resourceKey" : "none.svg",
+    "resourceSubType" : "IMAGE",
+    "resourceType" : "IMAGE",
+    "title" : "none.svg"
+  }
+}

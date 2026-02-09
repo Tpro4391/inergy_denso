@@ -1,0 +1,37 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "data" : "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzMDAgMzAwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMDAgMzAwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6IzA1QzQ2NDt9Cgkuc3Qxe2ZpbGw6bm9uZTtzdHJva2U6IzEzMTMxMztzdHJva2Utd2lkdGg6ODtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fQoJLnN0MntmaWxsOiMxMzEzMTM7fQo8L3N0eWxlPgo8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSIxNTAiIGN5PSIxNTAiIHI9IjE1MCIvPgo8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMjU0LjMsMTU4LjFjMCw1Ny42LTQ2LjcsMTA0LjMtMTA0LjMsMTA0LjNTNDUuNywyMTUuNyw0NS43LDE1OC4xIi8+CjxlbGxpcHNlIGNsYXNzPSJzdDIiIGN4PSI5Ny41IiBjeT0iMTA2IiByeD0iMTYuNyIgcnk9IjM4LjQiLz4KPGVsbGlwc2UgY2xhc3M9InN0MiIgY3g9IjIwMC43IiBjeT0iMTA3IiByeD0iMTYuNyIgcnk9IjM4LjQiLz4KPC9zdmc+Cg==",
+    "descriptor" : {
+      "mediaType" : "image/svg+xml",
+      "width" : 300,
+      "height" : 300,
+      "size" : 805,
+      "etag" : "bb85f38dc408658f3686e2cc18955058c80cc7060809042d2ee0bd1e28bb4e88",
+      "previewDescriptor" : {
+        "mediaType" : "image/svg+xml",
+        "width" : 300,
+        "height" : 300,
+        "size" : 805,
+        "etag" : "bb85f38dc408658f3686e2cc18955058c80cc7060809042d2ee0bd1e28bb4e88"
+      }
+    },
+    "etag" : "bb85f38dc408658f3686e2cc18955058c80cc7060809042d2ee0bd1e28bb4e88",
+    "externalId" : null,
+    "fileName" : "ok.svg",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "623e3350-b304-11f0-afdd-9b977a7eeb3b"
+    },
+    "link" : "/api/images/tenant/ok.svg",
+    "name" : "ok.svg",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/eTquhSJpeHjvt0c36BG6G4Feg08bfPGf",
+    "publicResourceKey" : "eTquhSJpeHjvt0c36BG6G4Feg08bfPGf",
+    "resourceKey" : "ok.svg",
+    "resourceSubType" : "IMAGE",
+    "resourceType" : "IMAGE",
+    "title" : "ok.svg"
+  }
+}

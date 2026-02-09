@@ -1,0 +1,25 @@
+{
+  "entityType" : "WIDGETS_BUNDLE",
+  "entity" : {
+    "alias" : "amitech",
+    "description" : "",
+    "externalId" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "0d343a60-f5bf-11ef-81d8-3ffb318f1501"
+    },
+    "id" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "0d343a60-f5bf-11ef-81d8-3ffb318f1501"
+    },
+    "image" : "",
+    "name" : "AMITECH",
+    "order" : null,
+    "scada" : true,
+    "title" : "AMITECH"
+  },
+  "fqns" : [ "l_h_i", "compressor3_svg", "compressor5_svg", "may_say_khi_svg", "factory_1_svg", "factory2_svg", "m_y_n_n_kh_", "m_y_s_y_kh_", "top_flow_meter_v2", "oven_2_svg", "m_y_s_y_kh_2" ],
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

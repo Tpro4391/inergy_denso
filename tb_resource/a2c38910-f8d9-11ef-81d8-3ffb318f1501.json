@@ -1,0 +1,27 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "data" : "ZnVuY3Rpb24gZm9ybWF0TnVtYmVyKG51bWJlcikgewogICAgcmV0dXJuIG51bWJlci50b1N0cmluZygpLnJlcGxhY2UoL1xCKD89KFxkezN9KSsoPyFcZCkpL2csICIsIik7Cn0=",
+    "descriptor" : null,
+    "etag" : "8f83c0926309c7b391a7294b91e23b1971ae93efdcc0b2a000a4891120dacfa5",
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "a2c38910-f8d9-11ef-81d8-3ffb318f1501"
+    },
+    "fileName" : "formatNumber.js",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "a2c38910-f8d9-11ef-81d8-3ffb318f1501"
+    },
+    "link" : "/api/resource/js_module/tenant/formatNumber.js",
+    "name" : "formatNumber",
+    "preview" : null,
+    "public" : false,
+    "publicLink" : null,
+    "publicResourceKey" : null,
+    "resourceKey" : "formatNumber.js",
+    "resourceSubType" : "MODULE",
+    "resourceType" : "JS_MODULE",
+    "title" : "formatNumber"
+  }
+}

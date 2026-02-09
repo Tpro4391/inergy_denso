@@ -1,0 +1,450 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "title" : "Tivi dashboard",
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "configuration" : {
+      "description" : "",
+      "widgets" : {
+        "4f3ea5f9-0ccb-fbef-b4ff-50e366c7a650" : {
+          "typeFullFqn" : "system.cards.markdown_card",
+          "type" : "latest",
+          "sizeX" : 5,
+          "sizeY" : 3.5,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : "",
+              "entityAliasId" : "00e3123a-0636-59d8-23a3-181d36ca06cc",
+              "dataKeys" : [ {
+                "name" : "timeDelay",
+                "type" : "attribute",
+                "label" : "timeDelay",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.7059916875985071
+              }, {
+                "name" : "activeDelay",
+                "type" : "attribute",
+                "label" : "activeDelay",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.8990400145974498
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            } ],
+            "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1740966464400,
+                  "endTimeMs" : 1741052864400
+                },
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
+              }
+            },
+            "showTitle" : false,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(255, 255, 255, 0.87)",
+            "padding" : "0px",
+            "settings" : {
+              "useMarkdownTextFunction" : true,
+              "markdownTextPattern" : "### Markdown/HTML card\n - **Current entity**: ${entityName}.\n - **Current value**: ${Random}.",
+              "markdownTextFunction" : "const pages = [\n    \"/dashboard/1d5786f0-afcc-11f0-94c3-f75567048948\",\n    \"/dashboard/1d5786f0-afcc-11f0-94c3-f75567048948?state=W3siaWQiOiJlbGVjdHJpY2l0eV9jb25zdW1wdGlvbiIsInBhcmFtcyI6eyJlbnRpdHlJZCI6eyJlbnRpdHlUeXBlIjoiREVWSUNFIiwiaWQiOiIyMjE1NjdiMC1hZmNkLTExZjAtOTRjMy1mNzU1NjcwNDg5NDgifSwiZW50aXR5TmFtZSI6IlRvdGFsIEZhY3RvcnkiLCJlbnRpdHlMYWJlbCI6IlRvdGFsIEZhY3RvcnkifX1d\",\n    \"/dashboard/1d5786f0-afcc-11f0-94c3-f75567048948?state=W3siaWQiOiJjb21wX2Fpcl9jb25zdW1wdGlvbiIsInBhcmFtcyI6eyJlbnRpdHlJZCI6eyJlbnRpdHlUeXBlIjoiREVWSUNFIiwiaWQiOiIyMjE1NjdiMC1hZmNkLTExZjAtOTRjMy1mNzU1NjcwNDg5NDgifSwiZW50aXR5TmFtZSI6IlRvdGFsIEZhY3RvcnkiLCJlbnRpdHlMYWJlbCI6IlRvdGFsIEZhY3RvcnkifX1d\",\n    \"/dashboard/1d5786f0-afcc-11f0-94c3-f75567048948?state=W3siaWQiOiJscGdfY29uc3VtcHRpb24iLCJwYXJhbXMiOnsiZW50aXR5SWQiOnsiZW50aXR5VHlwZSI6IkRFVklDRSIsImlkIjoiMjIxNTY3YjAtYWZjZC0xMWYwLTk0YzMtZjc1NTY3MDQ4OTQ4In0sImVudGl0eU5hbWUiOiJUb3RhbCBGYWN0b3J5IiwiZW50aXR5TGFiZWwiOiJUb3RhbCBGYWN0b3J5In19XQ%253D%253D\",\n    \"/dashboard/59c32e60-f11b-11f0-ba26-555b96a74c62?state=W3sicGFyYW1zIjp7ImVudGl0eUlkIjp7ImVudGl0eVR5cGUiOiJVU0VSIiwiaWQiOiJhNDFhODUxMC1hZjE5LTExZjAtOTRjMy1mNzU1NjcwNDg5NDgifSwiZW50aXR5TmFtZSI6ImFkbWluX2RlbnNvQGluZXJneS52biIsImVudGl0eUxhYmVsIjoiYWRtaW5fZGVuc29AaW5lcmd5LnZuIn19XQ%3D%3D\",\n    \"/dashboard/59c32e60-f11b-11f0-ba26-555b96a74c62?state=W3siaWQiOiJjb21wX2Fpcl9jb25zdW1wdGlvbiIsInBhcmFtcyI6eyJlbnRpdHlJZCI6eyJlbnRpdHlUeXBlIjoiVVNFUiIsImlkIjoiYTQxYTg1MTAtYWYxOS0xMWYwLTk0YzMtZjc1NTY3MDQ4OTQ4In0sImVudGl0eU5hbWUiOiJhZG1pbl9kZW5zb0BpbmVyZ3kudm4iLCJlbnRpdHlMYWJlbCI6ImFkbWluX2RlbnNvQGluZXJneS52biJ9fV0%253D\",\n    \"/dashboard/59c32e60-f11b-11f0-ba26-555b96a74c62?state=W3siaWQiOiJscGdfY29uc3VtcHRpb24iLCJwYXJhbXMiOnsiZW50aXR5SWQiOnsiZW50aXR5VHlwZSI6IlVTRVIiLCJpZCI6ImE0MWE4NTEwLWFmMTktMTFmMC05NGMzLWY3NTU2NzA0ODk0OCJ9LCJlbnRpdHlOYW1lIjoiYWRtaW5fZGVuc29AaW5lcmd5LnZuIiwiZW50aXR5TGFiZWwiOiJhZG1pbl9kZW5zb0BpbmVyZ3kudm4ifX1d\",\n    \"/dashboard/59c32e60-f11b-11f0-ba26-555b96a74c62?state=W3siaWQiOiJ3d3QiLCJwYXJhbXMiOnsiZW50aXR5SWQiOnsiZW50aXR5VHlwZSI6IlVTRVIiLCJpZCI6ImE0MWE4NTEwLWFmMTktMTFmMC05NGMzLWY3NTU2NzA0ODk0OCJ9LCJlbnRpdHlOYW1lIjoiYWRtaW5fZGVuc29AaW5lcmd5LnZuIiwiZW50aXR5TGFiZWwiOiJhZG1pbl9kZW5zb0BpbmVyZ3kudm4ifX1d\",\n    \"/dashboard/1e632a90-afcc-11f0-94c3-f75567048948?state=W3sicGFyYW1zIjp7fX1d\",\n    \"/dashboard/1e632a90-afcc-11f0-94c3-f75567048948?state=W3siaWQiOiJkZXRhaWxzIiwicGFyYW1zIjp7ImVudGl0eUlkIjp7ImVudGl0eVR5cGUiOiJERVZJQ0UiLCJpZCI6IjdiZjMyMTEwLWZjY2EtMTFmMC04ODA5LTMzMWFjMGZhMmUxMSJ9LCJlbnRpdHlOYW1lIjoiSGVhdCBwcm8ifX1d\",\n    \n];\n// console.log(data);\nlet index = 0;\nlet active = 'true';\nlet intervalTime = 60000;\nif (data[0].activeDelay != \"\") {\n    active = data[0].activeDelay;\n}\nif (data[0].timeDelay != \"\") {\n    intervalTime = data[0].timeDelay*1000;\n}\n\nfunction changePage() {\n    document.getElementById(\"webFrame\").src = pages[\n        index]; // Đổi URL của iframe\n    index = (index + 1) % pages\n        .length; // Tăng index, quay lại đầu nếu hết danh sách\n}\n\n// Cài đặt chuyển đổi trang tự động sau mỗi khoảng thời gian\nfunction startAutoChange() {\n    if (ctx.intervalId) {\n        clearInterval(\n            ctx.intervalId\n        ); // Xóa interval cũ nếu tồn tại\n    }\n    changePage(); // Gọi ngay lần đầu tiên\n    ctx.intervalId = setInterval(changePage,\n        intervalTime); // Thiết lập interval mới\n}\n// console.log(\"active: \",active);\n// console.log(\"intervalTime: \",intervalTime);\nif (active == 'true') {\n    setTimeout(startAutoChange, 200);\n} else {\n    if (ctx.intervalId) {\n        clearInterval(\n            ctx.intervalId\n        ); // Xóa interval cũ nếu tồn tại\n    }\n    setTimeout(changePage, 200);\n}\n\nreturn `<iframe id=\"webFrame\" src=\"\" width=\"100%\" height=\"100%\" frameborder=\"0\"></iframe>`;",
+              "applyDefaultMarkdownStyle" : true,
+              "markdownCss" : ""
+            },
+            "title" : "Markdown/HTML Card",
+            "showTitleIcon" : false,
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "titleTooltip" : "",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "showLegend" : false,
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : "",
+            "useDashboardTimewindow" : true,
+            "displayTimewindow" : true,
+            "actions" : {
+              "headerButton" : [ {
+                "name" : "Setup",
+                "icon" : "settings",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "setup_tivi_dashboard",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "dialogTitle" : "",
+                "dialogHideDashboardToolbar" : true,
+                "dialogWidth" : 30,
+                "dialogHeight" : 50,
+                "openInSeparateDialog" : true,
+                "openInPopover" : false,
+                "id" : "5be13c22-10bb-db85-86e3-0e69ea177aef"
+              } ]
+            }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "4f3ea5f9-0ccb-fbef-b4ff-50e366c7a650"
+        },
+        "0ec13007-c65f-2311-297f-a92a6330c9d2" : {
+          "typeFullFqn" : "system.input_widgets.update_multiple_attributes",
+          "type" : "latest",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : "",
+              "entityAliasId" : "00e3123a-0636-59d8-23a3-181d36ca06cc",
+              "dataKeys" : [ {
+                "name" : "activeDelay",
+                "type" : "attribute",
+                "label" : "Bật chuyển trạng tự động",
+                "color" : "#4caf50",
+                "settings" : {
+                  "dataKeyHidden" : false,
+                  "dataKeyType" : "server",
+                  "dataKeyValueType" : "booleanSwitch",
+                  "required" : false,
+                  "isEditable" : "editable",
+                  "disabledOnDataKey" : "",
+                  "appearance" : "outline",
+                  "subscriptSizing" : "fixed",
+                  "slideToggleLabelPosition" : "after",
+                  "selectOptions" : [ ],
+                  "step" : 1,
+                  "minValue" : null,
+                  "maxValue" : null,
+                  "requiredErrorMessage" : "",
+                  "minValueErrorMessage" : "",
+                  "maxValueErrorMessage" : "",
+                  "invalidDateErrorMessage" : "",
+                  "invalidJsonErrorMessage" : "",
+                  "dialogTitle" : "",
+                  "saveButtonLabel" : "",
+                  "cancelButtonLabel" : "",
+                  "useCustomIcon" : false,
+                  "icon" : "",
+                  "customIcon" : "",
+                  "useGetValueFunction" : false,
+                  "getValueFunctionBody" : "",
+                  "useSetValueFunction" : false,
+                  "setValueFunctionBody" : ""
+                },
+                "_hash" : 0.6387787405827492,
+                "aggregationType" : null,
+                "units" : null,
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "timeDelay",
+                "type" : "attribute",
+                "label" : "Thời gian chuyển trang",
+                "color" : "#2196f3",
+                "settings" : {
+                  "dataKeyHidden" : false,
+                  "dataKeyType" : "server",
+                  "dataKeyValueType" : "integer",
+                  "required" : true,
+                  "isEditable" : "editable",
+                  "disabledOnDataKey" : "",
+                  "appearance" : "outline",
+                  "subscriptSizing" : "fixed",
+                  "slideToggleLabelPosition" : "after",
+                  "selectOptions" : [ ],
+                  "step" : 1,
+                  "minValue" : 5,
+                  "maxValue" : null,
+                  "requiredErrorMessage" : "",
+                  "minValueErrorMessage" : "",
+                  "maxValueErrorMessage" : "",
+                  "invalidDateErrorMessage" : "",
+                  "invalidJsonErrorMessage" : "",
+                  "dialogTitle" : "",
+                  "saveButtonLabel" : "",
+                  "cancelButtonLabel" : "",
+                  "useCustomIcon" : false,
+                  "icon" : "",
+                  "customIcon" : "",
+                  "useGetValueFunction" : false,
+                  "getValueFunctionBody" : "",
+                  "useSetValueFunction" : false,
+                  "setValueFunctionBody" : ""
+                },
+                "_hash" : 0.7673456345657623,
+                "aggregationType" : null,
+                "units" : "s",
+                "decimals" : 0,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            } ],
+            "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1740968493617,
+                  "endTimeMs" : 1741054893617
+                },
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
+              }
+            },
+            "showTitle" : false,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "widgetTitle" : "",
+              "showResultMessage" : true,
+              "showActionButtons" : true,
+              "updateAllValues" : true,
+              "saveButtonLabel" : "",
+              "resetButtonLabel" : "",
+              "showGroupTitle" : true,
+              "groupTitle" : "${entityName}",
+              "fieldsAlignment" : "column",
+              "fieldsInRow" : 2,
+              "rowGap" : 5,
+              "columnGap" : 10
+            },
+            "title" : "Cài đặt chuyển trang",
+            "dropShadow" : true,
+            "enableFullscreen" : false,
+            "enableDataExport" : false,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "useDashboardTimewindow" : true,
+            "showLegend" : false,
+            "actions" : { },
+            "displayTimewindow" : true,
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : ""
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "0ec13007-c65f-2311-297f-a92a6330c9d2"
+        }
+      },
+      "states" : {
+        "default" : {
+          "name" : "Tivi dashboard",
+          "root" : true,
+          "layouts" : {
+            "main" : {
+              "widgets" : {
+                "4f3ea5f9-0ccb-fbef-b4ff-50e366c7a650" : {
+                  "sizeX" : 25,
+                  "sizeY" : 11,
+                  "row" : 0,
+                  "col" : 0
+                }
+              },
+              "gridSettings" : {
+                "layoutType" : "default",
+                "backgroundColor" : "#eeeeee",
+                "columns" : 24,
+                "margin" : 0,
+                "outerMargin" : true,
+                "backgroundSizeMode" : "100%",
+                "minColumns" : 24,
+                "viewFormat" : "grid",
+                "autoFillHeight" : true,
+                "rowHeight" : 70,
+                "backgroundImageUrl" : null,
+                "mobileAutoFillHeight" : false,
+                "mobileRowHeight" : 70
+              }
+            }
+          }
+        },
+        "setup_tivi_dashboard" : {
+          "name" : "Setup tivi dashboard",
+          "root" : false,
+          "layouts" : {
+            "main" : {
+              "widgets" : {
+                "0ec13007-c65f-2311-297f-a92a6330c9d2" : {
+                  "sizeX" : 24,
+                  "sizeY" : 9,
+                  "row" : 0,
+                  "col" : 0
+                }
+              },
+              "gridSettings" : {
+                "layoutType" : "default",
+                "backgroundColor" : "#eeeeee",
+                "columns" : 24,
+                "margin" : 0,
+                "outerMargin" : true,
+                "backgroundSizeMode" : "100%",
+                "minColumns" : 24,
+                "viewFormat" : "grid",
+                "autoFillHeight" : true,
+                "rowHeight" : 70,
+                "backgroundImageUrl" : null,
+                "mobileAutoFillHeight" : false,
+                "mobileRowHeight" : 70
+              }
+            }
+          }
+        }
+      },
+      "entityAliases" : {
+        "00e3123a-0636-59d8-23a3-181d36ca06cc" : {
+          "id" : "00e3123a-0636-59d8-23a3-181d36ca06cc",
+          "alias" : "user",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "CURRENT_USER",
+              "id" : "13814000-1dd2-11b2-8080-808080808080"
+            }
+          }
+        }
+      },
+      "filters" : { },
+      "timewindow" : {
+        "displayValue" : "",
+        "hideAggregation" : false,
+        "hideAggInterval" : false,
+        "hideTimezone" : false,
+        "selectedTab" : 0,
+        "realtime" : {
+          "realtimeType" : 0,
+          "interval" : 1000,
+          "timewindowMs" : 60000,
+          "quickInterval" : "CURRENT_DAY",
+          "hideInterval" : false,
+          "hideLastInterval" : false,
+          "hideQuickInterval" : false
+        },
+        "history" : {
+          "historyType" : 0,
+          "interval" : 1000,
+          "timewindowMs" : 60000,
+          "fixedTimewindow" : {
+            "startTimeMs" : 1740966459065,
+            "endTimeMs" : 1741052859065
+          },
+          "quickInterval" : "CURRENT_DAY",
+          "hideInterval" : false,
+          "hideLastInterval" : false,
+          "hideFixedInterval" : false,
+          "hideQuickInterval" : false
+        },
+        "aggregation" : {
+          "type" : "AVG",
+          "limit" : 25000
+        }
+      },
+      "settings" : {
+        "stateControllerId" : "entity",
+        "showTitle" : false,
+        "showDashboardsSelect" : true,
+        "showEntitiesSelect" : true,
+        "showDashboardTimewindow" : true,
+        "showDashboardExport" : true,
+        "toolbarAlwaysOpen" : true,
+        "titleColor" : "rgba(0,0,0,0.870588)",
+        "showDashboardLogo" : false,
+        "dashboardLogoUrl" : null,
+        "hideToolbar" : true,
+        "showFilters" : true,
+        "showUpdateDashboardImage" : true,
+        "dashboardCss" : ""
+      }
+    },
+    "name" : "Tivi dashboard",
+    "resources" : null,
+    "assignedCustomers" : [ {
+      "customerId" : {
+        "entityType" : "CUSTOMER",
+        "id" : "243596a0-f4e3-11ef-81d8-3ffb318f1501"
+      },
+      "title" : "user",
+      "public" : false
+    } ],
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "a7fc8150-f89a-11ef-81d8-3ffb318f1501"
+    },
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "a7fc8150-f89a-11ef-81d8-3ffb318f1501"
+    }
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

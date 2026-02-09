@@ -1,0 +1,40 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "data" : "PHN2ZyBpZD0iZTBYc3hPZ2huNVcxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMTAwMCAyNDAiIHNoYXBlLXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiB0ZXh0LXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiBwcm9qZWN0LWlkPSJjMTg3ZDdmOGE4ZmU0MGYzODEzNGRkYTc0MGIzNjVmZCIgZXhwb3J0LWlkPSJkNWYzMmMwZjFmZDQ0ZmYyOGEwYzNlOTllYTMxYzIwYyIgY2FjaGVkPSJmYWxzZSIvPg0K",
+    "descriptor" : {
+      "mediaType" : "image/svg+xml",
+      "width" : 1000,
+      "height" : 240,
+      "size" : 306,
+      "etag" : "cce0a9f109ddb5d762098090f94227668a18c3ba73a1f4e52a869e06832e9c61",
+      "previewDescriptor" : {
+        "mediaType" : "image/svg+xml",
+        "width" : 1000,
+        "height" : 240,
+        "size" : 306,
+        "etag" : "cce0a9f109ddb5d762098090f94227668a18c3ba73a1f4e52a869e06832e9c61"
+      }
+    },
+    "etag" : "cce0a9f109ddb5d762098090f94227668a18c3ba73a1f4e52a869e06832e9c61",
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "1d485de0-ff16-11ef-81d8-3ffb318f1501"
+    },
+    "fileName" : "none-1000x240.svg",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "1d485de0-ff16-11ef-81d8-3ffb318f1501"
+    },
+    "link" : "/api/images/tenant/none-1000x240.svg",
+    "name" : "none-1000x240.svg",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/N7miZxfvJMeJnaWtJapZsXge01JBS7Un",
+    "publicResourceKey" : "N7miZxfvJMeJnaWtJapZsXge01JBS7Un",
+    "resourceKey" : "none-1000x240.svg",
+    "resourceSubType" : "IMAGE",
+    "resourceType" : "IMAGE",
+    "title" : "none-1000x240.svg"
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "lastConnectedGateway" : "68492a60-afcc-11f0-94c3-f75567048948"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "243596a0-f4e3-11ef-81d8-3ffb318f1501"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "38dae0b2-f326-11ef-902b-e3a157f1ab5b"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "c7ad2b63-9f45-11f0-96c2-df048c90c8a5"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "c7ad2b63-9f45-11f0-96c2-df048c90c8a5"
+    },
+    "label" : null,
+    "name" : "Air station 2",
+    "softwareId" : null,
+    "type" : "Air meter"
+  },
+  "credentials" : {
+    "credentialsId" : "5MJVYNSHeHXbX4NNbINh",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "c7ad2b63-9f45-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Air",
+    "typeGroup" : "COMMON",
+    "version" : 2841
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "Error",
+      "lastUpdateTs" : 1764172129762,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1769077943114,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1769077943077,
+      "longValue" : 1769077943076,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1769077323204,
+      "longValue" : 1769077320195,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1769076129612,
+      "longValue" : 1769076129612,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1769077320208,
+      "longValue" : 1769077320208,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "m3Air_month",
+      "lastUpdateTs" : 1769076600698,
+      "longValue" : 601730,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "m3Air_today",
+      "lastUpdateTs" : 1769076600698,
+      "longValue" : 13030,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "m3Air_week",
+      "lastUpdateTs" : 1769076600698,
+      "longValue" : 115650,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "m3Air_year",
+      "lastUpdateTs" : 1769076600698,
+      "longValue" : 601730,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.6299581407477698,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1761290390973,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.8891320659343718,
+      "jsonValue" : null,
+      "key" : "xPos2",
+      "lastUpdateTs" : 1769408777938,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1761290390973,
+      "longValue" : null,
+      "strValue" : "0.33848894453537987"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.5077710741107357,
+      "jsonValue" : null,
+      "key" : "yPos2",
+      "lastUpdateTs" : 1769408777938,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ {
+    "configuration" : {
+      "type" : "SCRIPT",
+      "arguments" : {
+        "e1" : {
+          "defaultValue" : "",
+          "refEntityId" : {
+            "entityType" : "DEVICE",
+            "id" : "fb12b588-9eb2-11f0-96c2-df048c90c8a5"
+          },
+          "refEntityKey" : {
+            "key" : "Error",
+            "scope" : "CLIENT_SCOPE",
+            "type" : "ATTRIBUTE"
+          }
+        },
+        "e2" : {
+          "defaultValue" : "",
+          "refEntityId" : {
+            "entityType" : "DEVICE",
+            "id" : "fb29e705-9eb2-11f0-96c2-df048c90c8a5"
+          },
+          "refEntityKey" : {
+            "key" : "Error",
+            "scope" : "CLIENT_SCOPE",
+            "type" : "ATTRIBUTE"
+          }
+        },
+        "e3" : {
+          "defaultValue" : "",
+          "refEntityId" : {
+            "entityType" : "DEVICE",
+            "id" : "116cc912-aa6b-11f0-979a-c952bd8fc647"
+          },
+          "refEntityKey" : {
+            "key" : "Error",
+            "scope" : "CLIENT_SCOPE",
+            "type" : "ATTRIBUTE"
+          }
+        },
+        "e4" : {
+          "defaultValue" : "",
+          "refEntityId" : {
+            "entityType" : "DEVICE",
+            "id" : "11718401-aa6b-11f0-979a-c952bd8fc647"
+          },
+          "refEntityKey" : {
+            "key" : "Error",
+            "scope" : "CLIENT_SCOPE",
+            "type" : "ATTRIBUTE"
+          }
+        },
+        "e5" : {
+          "defaultValue" : "",
+          "refEntityId" : {
+            "entityType" : "DEVICE",
+            "id" : "116d1732-aa6b-11f0-979a-c952bd8fc647"
+          },
+          "refEntityKey" : {
+            "key" : "Error",
+            "scope" : "CLIENT_SCOPE",
+            "type" : "ATTRIBUTE"
+          }
+        },
+        "msk5" : {
+          "defaultValue" : "",
+          "refEntityId" : {
+            "entityType" : "DEVICE",
+            "id" : "fb29bff2-9eb2-11f0-96c2-df048c90c8a5"
+          },
+          "refEntityKey" : {
+            "key" : "Error",
+            "scope" : "CLIENT_SCOPE",
+            "type" : "ATTRIBUTE"
+          }
+        },
+        "msk6" : {
+          "defaultValue" : "",
+          "refEntityId" : {
+            "entityType" : "DEVICE",
+            "id" : "fb29e702-9eb2-11f0-96c2-df048c90c8a5"
+          },
+          "refEntityKey" : {
+            "key" : "Error",
+            "scope" : "CLIENT_SCOPE",
+            "type" : "ATTRIBUTE"
+          }
+        },
+        "msk7" : {
+          "defaultValue" : "",
+          "refEntityId" : {
+            "entityType" : "DEVICE",
+            "id" : "fb29bff1-9eb2-11f0-96c2-df048c90c8a5"
+          },
+          "refEntityKey" : {
+            "key" : "Error",
+            "scope" : "CLIENT_SCOPE",
+            "type" : "ATTRIBUTE"
+          }
+        },
+        "msk8" : {
+          "defaultValue" : "",
+          "refEntityId" : {
+            "entityType" : "DEVICE",
+            "id" : "fb2e2cc2-9eb2-11f0-96c2-df048c90c8a5"
+          },
+          "refEntityKey" : {
+            "key" : "Error",
+            "scope" : "CLIENT_SCOPE",
+            "type" : "ATTRIBUTE"
+          }
+        }
+      },
+      "expression" : "return {\n    \"Error\": e1 || e2 || e3 || e4||e5||msk5||msk6||msk7||msk8\n};",
+      "output" : {
+        "name" : "",
+        "scope" : "SERVER_SCOPE",
+        "type" : "ATTRIBUTES"
+      }
+    },
+    "configurationVersion" : 0,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1764173234355,
+      "failuresEnabled" : true
+    },
+    "name" : "check error",
+    "tenantId" : {
+      "entityType" : "TENANT",
+      "id" : "9864ee40-af19-11f0-94c3-f75567048948"
+    },
+    "type" : "SCRIPT"
+  } ]
+}
