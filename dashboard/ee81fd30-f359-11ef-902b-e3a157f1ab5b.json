@@ -6115,14 +6115,7 @@
     },
     "name" : "4.Data logger",
     "resources" : null,
-    "assignedCustomers" : [ {
-      "customerId" : {
-        "entityType" : "CUSTOMER",
-        "id" : "243596a0-f4e3-11ef-81d8-3ffb318f1501"
-      },
-      "title" : "user",
-      "public" : false
-    } ],
+    "assignedCustomers" : [ ],
     "externalId" : {
       "entityType" : "DASHBOARD",
       "id" : "ee81fd30-f359-11ef-902b-e3a157f1ab5b"

@@ -9,7 +9,7 @@
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
-      "id" : "243596a0-f4e3-11ef-81d8-3ffb318f1501"
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
     },
     "deviceData" : {
       "configuration" : {
@@ -46,7 +46,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1770040934258,
+      "lastUpdateTs" : 1770621495618,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -54,24 +54,24 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1770040866687,
-      "longValue" : 1770040866687,
+      "lastUpdateTs" : 1770621486292,
+      "longValue" : 1770621486292,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1770620165462,
-      "longValue" : 1770620164444,
+      "lastUpdateTs" : 1770621546755,
+      "longValue" : 1770621545563,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1770040934258,
-      "longValue" : 1770040934258,
+      "lastUpdateTs" : 1770621495618,
+      "longValue" : 1770621495618,
       "strValue" : null
     }, {
       "booleanValue" : null,

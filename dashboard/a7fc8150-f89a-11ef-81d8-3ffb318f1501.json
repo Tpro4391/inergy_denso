@@ -426,14 +426,7 @@
     },
     "name" : "Tivi dashboard",
     "resources" : null,
-    "assignedCustomers" : [ {
-      "customerId" : {
-        "entityType" : "CUSTOMER",
-        "id" : "243596a0-f4e3-11ef-81d8-3ffb318f1501"
-      },
-      "title" : "user",
-      "public" : false
-    } ],
+    "assignedCustomers" : [ ],
     "externalId" : {
       "entityType" : "DASHBOARD",
       "id" : "a7fc8150-f89a-11ef-81d8-3ffb318f1501"
