@@ -1,0 +1,154 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "lastConnectedGateway" : "68492a60-afcc-11f0-94c3-f75567048948"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f2559730-0589-11f1-abf4-490de52379ba"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "fb3fe001-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "fb436270-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "fb436270-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "label" : null,
+    "name" : "ADM Office",
+    "softwareId" : null,
+    "type" : "Level 3"
+  },
+  "credentials" : {
+    "credentialsId" : "IwqHK3HBtUNdBy6eKHrY",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "fb3a3ab6-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb436270-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2822
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "fb436270-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "3f917660-ab01-11f0-979a-c952bd8fc647"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 6051
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1769157197306,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "capcha",
+      "lastUpdateTs" : 1759315200575,
+      "longValue" : null,
+      "strValue" : "ADM"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1769157197290,
+      "longValue" : 1769157197290,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 3430.7700000000186,
+      "jsonValue" : null,
+      "key" : "kWh_month",
+      "lastUpdateTs" : 1769099105147,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 2968.70000000007,
+      "jsonValue" : null,
+      "key" : "kWh_today",
+      "lastUpdateTs" : 1769099105147,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 2968.70000000007,
+      "jsonValue" : null,
+      "key" : "kWh_week",
+      "lastUpdateTs" : 1769099105146,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 3430.7700000000186,
+      "jsonValue" : null,
+      "key" : "kWh_year",
+      "lastUpdateTs" : 1769099105146,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1769099217655,
+      "longValue" : 1769099216421,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1768810805099,
+      "longValue" : 1768810805099,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1768810799015,
+      "longValue" : 1768810799015,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

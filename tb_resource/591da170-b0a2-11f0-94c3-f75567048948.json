@@ -1,0 +1,40 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "data" : "PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAyMDAwMDMwMyBTdHlsYWJsZS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAwLzAzL1dELVNWRy0yMDAwMDMwMy9EVEQvc3ZnLTIwMDAwMzAzLXN0eWxhYmxlLmR0ZCJbXT48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCIgdmlld0JveD0iMCAwIDk5OSA5OTkiPjxjaXJjbGUgc3R5bGU9ImZpbGw6IzAwMCIgY3g9IjQ5OSIgY3k9IjQ5OSIgcj0iNDk5IiAvPjxwYXRoIHN0eWxlPSJmaWxsOiMwZjAiIGQ9Ik0yMSw0OTkgbDM0LC0xODAgMTAyLC0xNjIgMTYyLC0xMDQgMTgwLC0zNCAxODAsMzQgMTYyLDEwNCAxMDQsMTYyIDM0LDE4MCAtMzQsMTgwIC0xMDQsMTYyIC0xNjIsMTAyIC0xODAsMzQgLTE4MCwtMzQgLTE2MiwtMTAyIC0xMDIsLTE2MiAtMzQsLTE4MHoiIC8+PGNpcmNsZSBzdHlsZT0iZmlsbDojNmJmZjZiIiBjeD0iNDA2IiBjeT0iNDA1IiByPSIyOTEiIC8+PGNpcmNsZSBzdHlsZT0iZmlsbDojYTNmZmEzIiBjeD0iMzU5IiBjeT0iMzU3IiByPSIxOTgiIC8+PGNpcmNsZSBzdHlsZT0iZmlsbDojZDlmZmQ5IiBjeD0iMzExIiBjeT0iMzExIiByPSIxMDQiIC8+PC9zdmc+",
+    "descriptor" : {
+      "mediaType" : "image/svg+xml",
+      "width" : 64,
+      "height" : 64,
+      "size" : 636,
+      "etag" : "a33fe13e25272d8f30a0424d6086000329a65f1b2485f1e53922b535ebf31677",
+      "previewDescriptor" : {
+        "mediaType" : "image/svg+xml",
+        "width" : 64,
+        "height" : 64,
+        "size" : 636,
+        "etag" : "a33fe13e25272d8f30a0424d6086000329a65f1b2485f1e53922b535ebf31677"
+      }
+    },
+    "etag" : "a33fe13e25272d8f30a0424d6086000329a65f1b2485f1e53922b535ebf31677",
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "591da170-b0a2-11f0-94c3-f75567048948"
+    },
+    "fileName" : "on.svg",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "591da170-b0a2-11f0-94c3-f75567048948"
+    },
+    "link" : "/api/images/tenant/on.svg",
+    "name" : "on.svg",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/XewlWVuNofDi2XIITrGVCytVIn7Xm5pk",
+    "publicResourceKey" : "XewlWVuNofDi2XIITrGVCytVIn7Xm5pk",
+    "resourceKey" : "on.svg",
+    "resourceSubType" : "IMAGE",
+    "resourceType" : "IMAGE",
+    "title" : "on.svg"
+  }
+}

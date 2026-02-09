@@ -1,0 +1,40 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "data" : "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzMDAgMzAwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMDAgMzAwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6I0U4MDAwMDt9Cgkuc3Qxe2ZpbGw6IzEzMTMxMzt9Cgkuc3Qye2ZpbGw6bm9uZTtzdHJva2U6IzEzMTMxMztzdHJva2Utd2lkdGg6ODtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fQo8L3N0eWxlPgo8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSIxNTAiIGN5PSIxNTAiIHI9IjE1MCIvPgo8ZWxsaXBzZSBjbGFzcz0ic3QxIiBjeD0iOTcuNSIgY3k9IjEwNiIgcng9IjE2LjciIHJ5PSIzOC40Ii8+CjxlbGxpcHNlIGNsYXNzPSJzdDEiIGN4PSIyMDAuNyIgY3k9IjEwNyIgcng9IjE2LjciIHJ5PSIzOC40Ii8+CjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik02MiwyMjUuNmMyMS4xLTIyLjUsNTUuMy00MC4yLDg4LjUtNDAuMmMzNSwwLDY2LjQsMTUuNiw4Ny42LDQwLjIiLz4KPC9zdmc+Cg==",
+    "descriptor" : {
+      "mediaType" : "image/svg+xml",
+      "width" : 300,
+      "height" : 300,
+      "size" : 805,
+      "etag" : "5fcaa863d73b6b8a43a871de1e971e94a38b30c9f9aaf3ac2ed394f12d7d60b9",
+      "previewDescriptor" : {
+        "mediaType" : "image/svg+xml",
+        "width" : 300,
+        "height" : 300,
+        "size" : 805,
+        "etag" : "5fcaa863d73b6b8a43a871de1e971e94a38b30c9f9aaf3ac2ed394f12d7d60b9"
+      }
+    },
+    "etag" : "5fcaa863d73b6b8a43a871de1e971e94a38b30c9f9aaf3ac2ed394f12d7d60b9",
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "652044a0-b304-11f0-afdd-9b977a7eeb3b"
+    },
+    "fileName" : "ng.svg",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "652044a0-b304-11f0-afdd-9b977a7eeb3b"
+    },
+    "link" : "/api/images/tenant/ng.svg",
+    "name" : "ng.svg",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/51Subb2wlMgJyxSbuzr5FAjKc1r9B2yd",
+    "publicResourceKey" : "51Subb2wlMgJyxSbuzr5FAjKc1r9B2yd",
+    "resourceKey" : "ng.svg",
+    "resourceSubType" : "IMAGE",
+    "resourceType" : "IMAGE",
+    "title" : "ng.svg"
+  }
+}

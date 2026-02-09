@@ -1,0 +1,298 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "lastConnectedGateway" : "68492a60-afcc-11f0-94c3-f75567048948"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f2559730-0589-11f1-abf4-490de52379ba"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "fb4a6750-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "fb519340-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "fb519340-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "label" : null,
+    "name" : "Nha C",
+    "softwareId" : null,
+    "type" : "Level 2"
+  },
+  "credentials" : {
+    "credentialsId" : "mJCvdLLzEEiMXVBUaGPU",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "b9464c20-ab0a-11f0-979a-c952bd8fc647"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb519340-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2763
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "fb519340-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb527da3-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 6091
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1769157197298,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "capcha",
+      "lastUpdateTs" : 1759315200636,
+      "longValue" : null,
+      "strValue" : "PnE shop"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1769157196481,
+      "longValue" : 1769157196480,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 4749.3099999999395,
+      "jsonValue" : null,
+      "key" : "kWh_month",
+      "lastUpdateTs" : 1769099105108,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 4237.899999999907,
+      "jsonValue" : null,
+      "key" : "kWh_today",
+      "lastUpdateTs" : 1769099105108,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 4237.899999999907,
+      "jsonValue" : null,
+      "key" : "kWh_week",
+      "lastUpdateTs" : 1769099105113,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 4749.3099999999395,
+      "jsonValue" : null,
+      "key" : "kWh_year",
+      "lastUpdateTs" : 1769099105108,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1769099217656,
+      "longValue" : 1769099216422,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1768810805111,
+      "longValue" : 1768810805111,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1768810799008,
+      "longValue" : 1768810799008,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setAir_day",
+      "lastUpdateTs" : 1761896767069,
+      "longValue" : 9000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setAir_month",
+      "lastUpdateTs" : 1761896771143,
+      "longValue" : 203000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setAir_week",
+      "lastUpdateTs" : 1761896769335,
+      "longValue" : 100000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setAir_year",
+      "lastUpdateTs" : 1761896775338,
+      "longValue" : 3200000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setLPG_day",
+      "lastUpdateTs" : 1761896742414,
+      "longValue" : 1000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setLPG_month",
+      "lastUpdateTs" : 1761896746707,
+      "longValue" : 50000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setLPG_week",
+      "lastUpdateTs" : 1761896744464,
+      "longValue" : 20000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setLPG_year",
+      "lastUpdateTs" : 1761896749758,
+      "longValue" : 100000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setWater_day",
+      "lastUpdateTs" : 1761896754465,
+      "longValue" : 1000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setWater_month",
+      "lastUpdateTs" : 1761896758259,
+      "longValue" : 300000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setWater_week",
+      "lastUpdateTs" : 1761896756333,
+      "longValue" : 20000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setWater_year",
+      "lastUpdateTs" : 1761896761033,
+      "longValue" : 500000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setkWh_day",
+      "lastUpdateTs" : 1761885933195,
+      "longValue" : 1000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setkWh_month",
+      "lastUpdateTs" : 1761891985946,
+      "longValue" : 30000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setkWh_week",
+      "lastUpdateTs" : 1761891992859,
+      "longValue" : 20000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setkWh_year",
+      "lastUpdateTs" : 1761891999578,
+      "longValue" : 499999,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.4359748393895751,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1769417478190,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.2270321660246045,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1769417478190,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

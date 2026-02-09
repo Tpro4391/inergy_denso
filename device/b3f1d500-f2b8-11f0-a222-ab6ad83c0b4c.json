@@ -1,0 +1,109 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "lastConnectedGateway" : "cae74f60-ca95-11f0-8419-1fdedd45ed20"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f2559730-0589-11f1-abf4-490de52379ba"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "d99248d0-f510-11f0-a222-ab6ad83c0b4c"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "b3f1d500-f2b8-11f0-a222-ab6ad83c0b4c"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "b3f1d500-f2b8-11f0-a222-ab6ad83c0b4c"
+    },
+    "label" : null,
+    "name" : "PH Bể Trung Hòa",
+    "softwareId" : null,
+    "type" : "PH"
+  },
+  "credentials" : {
+    "credentialsId" : "Z7sftt6hyuvN2H0G3gA4",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "cae74f60-ca95-11f0-8419-1fdedd45ed20"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "b3f1d500-f2b8-11f0-a222-ab6ad83c0b4c"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 6409
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1769077943114,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1769077943076,
+      "longValue" : 1769077943076,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1769077323209,
+      "longValue" : 1769077323196,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1769076129361,
+      "longValue" : 1769076129361,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1769077323209,
+      "longValue" : 1769077323209,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[[0.6962662694621241,0.6516988579559361],[0.8460608801867117,0.7226690353813796]]",
+      "key" : "perimeter",
+      "lastUpdateTs" : 1769408721325,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

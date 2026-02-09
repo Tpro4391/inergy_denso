@@ -1,0 +1,104 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "lastConnectedGateway" : "cae74f60-ca95-11f0-8419-1fdedd45ed20"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f2559730-0589-11f1-abf4-490de52379ba"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "a46d12c0-b096-11f0-94c3-f75567048948"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "116d1730-aa6b-11f0-979a-c952bd8fc647"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "116d1730-aa6b-11f0-979a-c952bd8fc647"
+    },
+    "label" : "Boiler 2",
+    "name" : "Boiler No.2",
+    "softwareId" : null,
+    "type" : "Boiler"
+  },
+  "credentials" : {
+    "credentialsId" : "O0QvpzGq7ga98my7WiYl",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1769077943114,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1769077943077,
+      "longValue" : 1769077943076,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1769077317197,
+      "longValue" : 1769077315714,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1769076136799,
+      "longValue" : 1769076136799,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1769077315733,
+      "longValue" : 1769077315733,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.3184769185268462,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1769408863125,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1769408863125,
+      "longValue" : null,
+      "strValue" : "0.29633586578031024"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

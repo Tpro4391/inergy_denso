@@ -1,0 +1,196 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f2559730-0589-11f1-abf4-490de52379ba"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "98dcd8e0-8220-11f0-b2a5-330a0128a863"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7dac51-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7dac51-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "label" : null,
+    "name" : "Crank shaft",
+    "softwareId" : null,
+    "type" : "Remote_type"
+  },
+  "credentials" : {
+    "credentialsId" : "8bRw2sX4m2gZB2efVycw",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "fb12b581-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7dac51-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2732
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "fb12b583-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7dac51-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2701
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "fb12b587-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7dac51-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2705
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "fb12b58b-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7dac51-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2718
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "fb12b58e-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7dac51-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2723
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7dac51-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "df001241-c6a6-11f0-8e2c-314c317a5c8d"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 6099
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1769157197309,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1769157197290,
+      "longValue" : 1769157197290,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 41501.060000000056,
+      "jsonValue" : null,
+      "key" : "kWh_month",
+      "lastUpdateTs" : 1769099105139,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 5142.910000000149,
+      "jsonValue" : null,
+      "key" : "kWh_today",
+      "lastUpdateTs" : 1769099105139,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 9482.729999999981,
+      "jsonValue" : null,
+      "key" : "kWh_week",
+      "lastUpdateTs" : 1769099105138,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 41501.060000000056,
+      "jsonValue" : null,
+      "key" : "kWh_year",
+      "lastUpdateTs" : 1769099105138,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1769099217653,
+      "longValue" : 1769099216421,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1768810805111,
+      "longValue" : 1768810805111,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1768810799010,
+      "longValue" : 1768810799010,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

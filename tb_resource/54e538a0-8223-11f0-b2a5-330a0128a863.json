@@ -1,0 +1,40 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "data" : "PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxkZXNjPkNvcHlyaWdodCBPcHRvIDIyPC9kZXNjPiANCjxnPg0KPGcgaWQ9InNoYXBlIj4NCg0KCQk8cGF0aCBmaWxsPSIjOTk5IiBkPSJNNTIuMjUxLDQ4Ljc1YzAsMCw5LTEwLjUsMTkuNS05LjVzMTEuNzM5LTE2LjY2OS0xNC41LTIyLjVjLTQuNS0xLTE3LDMtMTEsMjUiPjwvcGF0aD4NCgkJPHBhdGggZmlsbD0iIzk5OSIgZD0iTTQ4LjE0Miw1My42MTFjMCwwLTksMTAuNS0xOS41LDkuNWMtMTAuNS0xLTExLjczOSwxNi42NjksMTQuNSwyMi41YzQuNSwxLDE3LTMsMTEtMjUiPjwvcGF0aD4NCgkJPHBhdGggZmlsbD0iIzk5OSIgZD0iTTQ3Ljc2Niw0OS4xMjZjMCwwLTEwLjUtOS05LjUtMTkuNXMtMTYuNjY5LTExLjczOS0yMi41LDE0LjVjLTEsNC41LDMsMTcsMjUsMTEiPjwvcGF0aD4NCgkJPHBhdGggZmlsbD0iIzk5OSIgZD0iTTUyLjYyNyw1My4yMzVjMCwwLDEwLjUsOSw5LjUsMTkuNXMxNi42NjksMTEuNzM5LDIyLjUtMTQuNWMxLTQuNS0zLTE3LTI1LTExIj48L3BhdGg+DQoJCTxjaXJjbGUgZmlsbD0iIzk5OSIgY3g9IjUwIiBjeT0iNTAuMDA4IiByPSI4LjI0OCI+PC9jaXJjbGU+DQoNCjwvZz4NCg0KPC9nPg0KPC9zdmc+",
+    "descriptor" : {
+      "mediaType" : "image/svg+xml",
+      "width" : 100,
+      "height" : 100,
+      "size" : 756,
+      "etag" : "49f3d0cc85e7293c090331cc19455093ea851055b31f548b19eb64b837128725",
+      "previewDescriptor" : {
+        "mediaType" : "image/svg+xml",
+        "width" : 100,
+        "height" : 100,
+        "size" : 756,
+        "etag" : "49f3d0cc85e7293c090331cc19455093ea851055b31f548b19eb64b837128725"
+      }
+    },
+    "etag" : "49f3d0cc85e7293c090331cc19455093ea851055b31f548b19eb64b837128725",
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "54e538a0-8223-11f0-b2a5-330a0128a863"
+    },
+    "fileName" : "fanblades.svg",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "54e538a0-8223-11f0-b2a5-330a0128a863"
+    },
+    "link" : "/api/images/tenant/fanblades.svg",
+    "name" : "fanblades.svg",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/U0sJOMXTrrqNrqQFx10jsKybUnv5AkFT",
+    "publicResourceKey" : "U0sJOMXTrrqNrqQFx10jsKybUnv5AkFT",
+    "resourceKey" : "fanblades.svg",
+    "resourceSubType" : "IMAGE",
+    "resourceType" : "IMAGE",
+    "title" : "fanblades.svg"
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "lastConnectedGateway" : "68492a60-afcc-11f0-94c3-f75567048948"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f2559730-0589-11f1-abf4-490de52379ba"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "faf9af4e-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "fb2e2cc3-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "fb2e2cc3-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "label" : null,
+    "name" : "Air-drier No.10",
+    "softwareId" : null,
+    "type" : "Electricity meter"
+  },
+  "credentials" : {
+    "credentialsId" : "AunVXxAkoyHiTWQufWFg",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "fb2e2cc3-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb41b4c0-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2885
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "Block No.",
+      "lastUpdateTs" : 1759315200423,
+      "longValue" : 29,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "DLU",
+      "lastUpdateTs" : 1759315200423,
+      "longValue" : null,
+      "strValue" : "4:DLL1_inst"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "FACI",
+      "lastUpdateTs" : 1759315200423,
+      "longValue" : null,
+      "strValue" : "May say khi so 10"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "PRPS",
+      "lastUpdateTs" : 1759315200423,
+      "longValue" : null,
+      "strValue" : "MNT"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "SECT",
+      "lastUpdateTs" : 1759315200423,
+      "longValue" : null,
+      "strValue" : "MNT"
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1769077943114,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "capcha",
+      "lastUpdateTs" : 1759315200423,
+      "longValue" : null,
+      "strValue" : "COMPRESSOR No.3"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1769077943077,
+      "longValue" : 1769077943076,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 1088.3640000000014,
+      "jsonValue" : null,
+      "key" : "kWh_month",
+      "lastUpdateTs" : 1769076600261,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 23.61600000000908,
+      "jsonValue" : null,
+      "key" : "kWh_today",
+      "lastUpdateTs" : 1769076600259,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 244.05100000000675,
+      "jsonValue" : null,
+      "key" : "kWh_week",
+      "lastUpdateTs" : 1769076600259,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 1088.3640000000014,
+      "jsonValue" : null,
+      "key" : "kWh_year",
+      "lastUpdateTs" : 1769076600259,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1769077323222,
+      "longValue" : 1769077320195,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1769076719472,
+      "longValue" : 1769076719472,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1769077320205,
+      "longValue" : 1769077320205,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.4280520838052874,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1760935374617,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1760935374617,
+      "longValue" : null,
+      "strValue" : "0.11932675588052917"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

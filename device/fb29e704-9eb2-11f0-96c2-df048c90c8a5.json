@@ -1,0 +1,181 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "lastConnectedGateway" : "68492a60-afcc-11f0-94c3-f75567048948"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f2559730-0589-11f1-abf4-490de52379ba"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "faf9af4e-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "fb29e704-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "fb29e704-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "label" : null,
+    "name" : "Pre-treatment 4",
+    "softwareId" : null,
+    "type" : "Electricity meter"
+  },
+  "credentials" : {
+    "credentialsId" : "hgHeC7p69VnaJONuf436",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "fb29e704-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb481d60-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2793
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "Block No.",
+      "lastUpdateTs" : 1759315200383,
+      "longValue" : 7,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "DLU",
+      "lastUpdateTs" : 1759315200383,
+      "longValue" : null,
+      "strValue" : "5:DLL2_inst"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "FACI",
+      "lastUpdateTs" : 1759315200383,
+      "longValue" : null,
+      "strValue" : "Line 4"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "PRPS",
+      "lastUpdateTs" : 1759315200383,
+      "longValue" : null,
+      "strValue" : "Pro2"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "SECT",
+      "lastUpdateTs" : 1759315200383,
+      "longValue" : null,
+      "strValue" : "Nha F"
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1768274237671,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "capcha",
+      "lastUpdateTs" : 1759315200383,
+      "longValue" : null,
+      "strValue" : "Line 4"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1768274237623,
+      "longValue" : 1768274237623,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.3920000000507571,
+      "jsonValue" : null,
+      "key" : "kWh_month",
+      "lastUpdateTs" : 1768272900148,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "kWh_today",
+      "lastUpdateTs" : 1768272900140,
+      "longValue" : null,
+      "strValue" : "0.014000000024680048"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "kWh_week",
+      "lastUpdateTs" : 1768272900138,
+      "longValue" : null,
+      "strValue" : "0.05700000002980232"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.3920000000507571,
+      "jsonValue" : null,
+      "key" : "kWh_year",
+      "lastUpdateTs" : 1768272900144,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1768273621085,
+      "longValue" : 1768273619663,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1768211143619,
+      "longValue" : 1768211143619,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1768273619674,
+      "longValue" : 1768273619674,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

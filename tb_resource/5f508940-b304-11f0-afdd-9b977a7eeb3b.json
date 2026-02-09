@@ -1,0 +1,40 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "data" : "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzMDAgMzAwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMDAgMzAwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6I0ZCQkIwRTt9Cgkuc3Qxe2ZpbGw6IzEzMTMxMzt9Cjwvc3R5bGU+CjxjaXJjbGUgY2xhc3M9InN0MCIgY3g9IjE1MCIgY3k9IjE1MCIgcj0iMTUwIi8+CjxlbGxpcHNlIGNsYXNzPSJzdDEiIGN4PSI5Ny41IiBjeT0iMTA2IiByeD0iMTYuNyIgcnk9IjM4LjQiLz4KPGVsbGlwc2UgY2xhc3M9InN0MSIgY3g9IjIwMC43IiBjeT0iMTA3IiByeD0iMTYuNyIgcnk9IjM4LjQiLz4KPHBhdGggY2xhc3M9InN0MSIgZD0iTTIzMS4xLDIxMS43SDY4LjljLTIuNSwwLTQuNS0yLTQuNS00LjVsMCwwYzAtMi41LDItNC41LDQuNS00LjVoMTYyLjJjMi41LDAsNC41LDIsNC41LDQuNWwwLDAKCUMyMzUuNiwyMDkuNiwyMzMuNiwyMTEuNywyMzEuMSwyMTEuN3oiLz4KPC9zdmc+Cg==",
+    "descriptor" : {
+      "mediaType" : "image/svg+xml",
+      "width" : 300,
+      "height" : 300,
+      "size" : 760,
+      "etag" : "77e8e6526c363ee02967bb06b1db4a6496a7212ae7108d9232b66e41d2a47e2e",
+      "previewDescriptor" : {
+        "mediaType" : "image/svg+xml",
+        "width" : 300,
+        "height" : 300,
+        "size" : 760,
+        "etag" : "77e8e6526c363ee02967bb06b1db4a6496a7212ae7108d9232b66e41d2a47e2e"
+      }
+    },
+    "etag" : "77e8e6526c363ee02967bb06b1db4a6496a7212ae7108d9232b66e41d2a47e2e",
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "5f508940-b304-11f0-afdd-9b977a7eeb3b"
+    },
+    "fileName" : "na.svg",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "5f508940-b304-11f0-afdd-9b977a7eeb3b"
+    },
+    "link" : "/api/images/tenant/na.svg",
+    "name" : "na.svg",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/PYBDNX5ylSpKyKmuy7BH23KiU7xXvS0F",
+    "publicResourceKey" : "PYBDNX5ylSpKyKmuy7BH23KiU7xXvS0F",
+    "resourceKey" : "na.svg",
+    "resourceSubType" : "IMAGE",
+    "resourceType" : "IMAGE",
+    "title" : "na.svg"
+  }
+}

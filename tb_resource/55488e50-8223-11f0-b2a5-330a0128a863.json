@@ -1,0 +1,40 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "data" : "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+DQogIDwhLS0gVGjDom4gcXXhuqF0IC0tPg0KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI2IiBmaWxsPSIjNTU1IiAvPg0KDQogIDwhLS0gTmjDs20gY8OhbmggcXXhuqF0IC0tPg0KICA8ZyBpZD0iZmFuLWJsYWRlcyI+DQogICAgPCEtLSBDw6FuaCAxIC0tPg0KICAgIDxwYXRoIGQ9Ik00Nyw1MHEtMS0yLDEtNGwtLjQ2NDE0NS0yMXEwLTcsMi40NjQxNDUtN3EyLjQ2MzgyNywwLDIuNDYzODI3LDdMNTIsNDZxMiwyLDEsNGgtNloiIGZpbGw9IiM1YzVjNWNmZiIgLz4NCg0KICAgIDwhLS0gQ8OhbmggMiAtLT4NCiAgICA8cGF0aCBkPSJNNDcsNTBxLTEtMiwxLTRsLS40NjQxNDUtMjFxMC03LDIuNDY0MTQ1LTdxMi40NjM4MjcsMCwyLjQ2MzgyNyw3TDUyLDQ2cTIsMiwxLDRoLTZaIiBmaWxsPSIjNWM1YzVjZmYiIHRyYW5zZm9ybT0icm90YXRlKDEyMCA1MCA1MCkiIC8+DQoNCiAgICA8IS0tIEPDoW5oIDMgLS0+DQogICAgPHBhdGggZD0iTTQ3LDUwcS0xLTIsMS00bC0uNDY0MTQ1LTIxcTAtNywyLjQ2NDE0NS03cTIuNDYzODI3LDAsMi40NjM4MjcsN0w1Miw0NnEyLDIsMSw0aC02WiIgZmlsbD0iIzVjNWM1Y2ZmIiB0cmFuc2Zvcm09InJvdGF0ZSgyNDAgNTAgNTApIiAvPg0KICA8L2c+DQo8L3N2Zz4NCg==",
+    "descriptor" : {
+      "mediaType" : "image/svg+xml",
+      "width" : 200,
+      "height" : 200,
+      "size" : 718,
+      "etag" : "bb095578bb255b53b8d6035735c269424009eb6a7b7bd35543a6f2e795010abe",
+      "previewDescriptor" : {
+        "mediaType" : "image/svg+xml",
+        "width" : 200,
+        "height" : 200,
+        "size" : 718,
+        "etag" : "bb095578bb255b53b8d6035735c269424009eb6a7b7bd35543a6f2e795010abe"
+      }
+    },
+    "etag" : "bb095578bb255b53b8d6035735c269424009eb6a7b7bd35543a6f2e795010abe",
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "55488e50-8223-11f0-b2a5-330a0128a863"
+    },
+    "fileName" : "quat-tran-off.svg",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "55488e50-8223-11f0-b2a5-330a0128a863"
+    },
+    "link" : "/api/images/tenant/quat-tran-off.svg",
+    "name" : "quat-tran-off.svg",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/tQ0UyHn8yZlj3yatJECm47AsSVeObBpy",
+    "publicResourceKey" : "tQ0UyHn8yZlj3yatJECm47AsSVeObBpy",
+    "resourceKey" : "quat-tran-off.svg",
+    "resourceSubType" : "IMAGE",
+    "resourceType" : "IMAGE",
+    "title" : "quat-tran-off.svg"
+  }
+}

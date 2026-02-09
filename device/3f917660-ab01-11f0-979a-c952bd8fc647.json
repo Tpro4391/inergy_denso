@@ -1,0 +1,178 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : "",
+      "lastConnectedGateway" : "68492a60-afcc-11f0-94c3-f75567048948"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f2559730-0589-11f1-abf4-490de52379ba"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "fb4f9771-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "3f917660-ab01-11f0-979a-c952bd8fc647"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "3f917660-ab01-11f0-979a-c952bd8fc647"
+    },
+    "label" : "Văn phòng",
+    "name" : "Office + DC Trainning",
+    "softwareId" : null,
+    "type" : "Level 1"
+  },
+  "credentials" : {
+    "credentialsId" : "l5DUd28vBQDAApZ7L3to",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "d28e6d90-aafe-11f0-979a-c952bd8fc647"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "3f917660-ab01-11f0-979a-c952bd8fc647"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 6050
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "fb436270-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "3f917660-ab01-11f0-979a-c952bd8fc647"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 6051
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "3f917660-ab01-11f0-979a-c952bd8fc647"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2734
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1770621495626,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1770621486292,
+      "longValue" : 1770621486292,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 14575.280000000028,
+      "jsonValue" : null,
+      "key" : "kWh_month",
+      "lastUpdateTs" : 1769099105167,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 1790.0990282953017,
+      "jsonValue" : null,
+      "key" : "kWh_today",
+      "lastUpdateTs" : 1770619884659,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 5451.969999999972,
+      "jsonValue" : null,
+      "key" : "kWh_week",
+      "lastUpdateTs" : 1769099105167,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 14575.280000000028,
+      "jsonValue" : null,
+      "key" : "kWh_year",
+      "lastUpdateTs" : 1769099105167,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1770622729184,
+      "longValue" : 1770622726468,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1770622456319,
+      "longValue" : 1770622456319,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1770622439148,
+      "longValue" : 1770622439148,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.543634744200536,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1769656760483,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.7313763396539413,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1769656760483,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

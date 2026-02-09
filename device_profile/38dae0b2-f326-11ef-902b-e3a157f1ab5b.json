@@ -1,0 +1,312 @@
+{
+  "entityType" : "DEVICE_PROFILE",
+  "entity" : {
+    "default" : false,
+    "defaultDashboardId" : null,
+    "defaultEdgeRuleChainId" : null,
+    "defaultQueueName" : null,
+    "defaultRuleChainId" : null,
+    "description" : "Default device profile",
+    "externalId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "38dae0b2-f326-11ef-902b-e3a157f1ab5b"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "38dae0b2-f326-11ef-902b-e3a157f1ab5b"
+    },
+    "image" : null,
+    "name" : "Air meter",
+    "profileData" : {
+      "alarms" : [ {
+        "alarmType" : "Vượt ngưỡng sử dụng khí nén hôm nay",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "set_Air_today",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "GREATER",
+                "value" : {
+                  "defaultValue" : 0.0,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "m3Air_today",
+                    "sourceType" : "CURRENT_DEVICE",
+                    "resolvedValue" : null
+                  },
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "set_Air_today",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              }, {
+                "key" : {
+                  "key" : "set_Air_today",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "LESS",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : {
+                      "inherit" : false,
+                      "sourceAttribute" : "m3Air_today",
+                      "sourceType" : "CURRENT_DEVICE",
+                      "resolvedValue" : null
+                    },
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "ccf6538c-b9bb-d846-5655-4ba481490307",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false
+      }, {
+        "alarmType" : "Vượt ngưỡng sử dụng khí nén tháng",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "set_Air_month",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "GREATER",
+                "value" : {
+                  "defaultValue" : 0.0,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "m3Air_month",
+                    "sourceType" : "CURRENT_DEVICE",
+                    "resolvedValue" : null
+                  },
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "set_Air_month",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              }, {
+                "key" : {
+                  "key" : "set_Air_month",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "LESS",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : {
+                      "inherit" : false,
+                      "sourceAttribute" : "m3Air_month",
+                      "sourceType" : "CURRENT_DEVICE",
+                      "resolvedValue" : null
+                    },
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "ccf6538c-b9bb-d846-5655-4ba481490308",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false
+      }, {
+        "alarmType" : "Vượt ngưỡng sử dụng khí nén năm",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "set_Air_year",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "GREATER",
+                "value" : {
+                  "defaultValue" : 0.0,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "m3Air_year",
+                    "sourceType" : "CURRENT_DEVICE",
+                    "resolvedValue" : null
+                  },
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "set_Air_year",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              }, {
+                "key" : {
+                  "key" : "set_Air_year",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "LESS",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : {
+                      "inherit" : false,
+                      "sourceAttribute" : "m3Air_year",
+                      "sourceType" : "CURRENT_DEVICE",
+                      "resolvedValue" : null
+                    },
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "ccf6538c-b9bb-d846-5655-4ba481490309",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false
+      } ],
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "provisionConfiguration" : {
+        "type" : "DISABLED",
+        "provisionDeviceSecret" : null
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "provisionDeviceKey" : null,
+    "provisionType" : "DISABLED",
+    "softwareId" : null,
+    "transportType" : "DEFAULT",
+    "type" : "DEFAULT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

@@ -1,0 +1,678 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : "",
+      "lastConnectedGateway" : "68492a60-afcc-11f0-94c3-f75567048948"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f2559730-0589-11f1-abf4-490de52379ba"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "577c64f0-f32e-11ef-902b-e3a157f1ab5b"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "label" : "Total Factory",
+    "name" : "Total Factory",
+    "softwareId" : null,
+    "type" : "Factory"
+  },
+  "credentials" : {
+    "credentialsId" : "aokWMtXZ4Va6OepRatZn",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "c7ad2b60-9f45-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Air2",
+    "typeGroup" : "COMMON",
+    "version" : 2839
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "c7ad2b61-9f45-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Air",
+    "typeGroup" : "COMMON",
+    "version" : 2840
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "c7ad2b63-9f45-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Air",
+    "typeGroup" : "COMMON",
+    "version" : 2841
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "c7ad2b64-9f45-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Air2",
+    "typeGroup" : "COMMON",
+    "version" : 2842
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "c7ad2b69-9f45-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Air",
+    "typeGroup" : "COMMON",
+    "version" : 2846
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "c7ad2b6a-9f45-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Air2",
+    "typeGroup" : "COMMON",
+    "version" : 2847
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "df001241-c6a6-11f0-8e2c-314c317a5c8d"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 6097
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ed0cf871-9f47-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Water",
+    "typeGroup" : "COMMON",
+    "version" : 2735
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ed0d94b1-9f47-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Water",
+    "typeGroup" : "COMMON",
+    "version" : 2830
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ed0d94b2-9f47-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Water",
+    "typeGroup" : "COMMON",
+    "version" : 2849
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ed0de2d1-9f47-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Water",
+    "typeGroup" : "COMMON",
+    "version" : 2766
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ed0f1b51-9f47-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Water",
+    "typeGroup" : "COMMON",
+    "version" : 2850
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ed11b360-9f47-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Water",
+    "typeGroup" : "COMMON",
+    "version" : 2851
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ed1276b1-9f47-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Water",
+    "typeGroup" : "COMMON",
+    "version" : 2852
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ed129dc0-9f47-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Water",
+    "typeGroup" : "COMMON",
+    "version" : 2853
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ed13d645-9f47-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Water",
+    "typeGroup" : "COMMON",
+    "version" : 2742
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ed14e7b1-9f47-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Water",
+    "typeGroup" : "COMMON",
+    "version" : 2854
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "fb4a6751-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2785
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "fb527da3-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2858
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "fb52a4b1-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2859
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "2df6de53-9f57-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "LPG",
+    "typeGroup" : "COMMON",
+    "version" : 2814
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "3f917660-ab01-11f0-979a-c952bd8fc647"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2734
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1770621495631,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1770621486292,
+      "longValue" : 1770621486292,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 3747.557304565559,
+      "jsonValue" : null,
+      "key" : "kW_EVN",
+      "lastUpdateTs" : 1770622727275,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 4193.532118431853,
+      "jsonValue" : null,
+      "key" : "kW_Load",
+      "lastUpdateTs" : 1770622727275,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : -768.4597157171934,
+      "jsonValue" : null,
+      "key" : "kW_Other",
+      "lastUpdateTs" : 1769669425345,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 445.97481386629374,
+      "jsonValue" : null,
+      "key" : "kW_Solar",
+      "lastUpdateTs" : 1770622727275,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 399910.6700000018,
+      "jsonValue" : null,
+      "key" : "kWh_month",
+      "lastUpdateTs" : 1769099105165,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 80602.95000000298,
+      "jsonValue" : null,
+      "key" : "kWh_today",
+      "lastUpdateTs" : 1769099105165,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 113786.14999999851,
+      "jsonValue" : null,
+      "key" : "kWh_week",
+      "lastUpdateTs" : 1769099105165,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 399910.6700000018,
+      "jsonValue" : null,
+      "key" : "kWh_year",
+      "lastUpdateTs" : 1769099105165,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1770622729186,
+      "longValue" : 1770622726468,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1770622456329,
+      "longValue" : 1770622456329,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1770622439148,
+      "longValue" : 1770622439148,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "m3Air_month",
+      "lastUpdateTs" : 1769076600662,
+      "longValue" : 1318888,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "m3Air_today",
+      "lastUpdateTs" : 1769076600661,
+      "longValue" : 296347,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "m3Air_week",
+      "lastUpdateTs" : 1769076600661,
+      "longValue" : 470191,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "m3Air_year",
+      "lastUpdateTs" : 1769076600661,
+      "longValue" : 1318888,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 26642.951175689697,
+      "jsonValue" : null,
+      "key" : "m3LPG_month",
+      "lastUpdateTs" : 1769076600661,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 827.0761756896973,
+      "jsonValue" : null,
+      "key" : "m3LPG_today",
+      "lastUpdateTs" : 1769076600661,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 5425.451175689697,
+      "jsonValue" : null,
+      "key" : "m3LPG_week",
+      "lastUpdateTs" : 1769076600661,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 26642.951175689697,
+      "jsonValue" : null,
+      "key" : "m3LPG_year",
+      "lastUpdateTs" : 1769076600661,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 56.4,
+      "jsonValue" : null,
+      "key" : "m3Water_today",
+      "lastUpdateTs" : 1761202549146,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[[0.528986974965149,0.028011452646098937],[0.5946146746415213,0.07138630787153889]]",
+      "key" : "perimeter",
+      "lastUpdateTs" : 1760681458250,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setAir_day",
+      "lastUpdateTs" : 1761549276480,
+      "longValue" : 2000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setLPG_day",
+      "lastUpdateTs" : 1761549276480,
+      "longValue" : 1000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setWater_day",
+      "lastUpdateTs" : 1761549001288,
+      "longValue" : 230,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "set_kW",
+      "lastUpdateTs" : 1769668374876,
+      "longValue" : 5000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "set_kWh_month",
+      "lastUpdateTs" : 1769668374876,
+      "longValue" : 6000000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "set_kWh_today",
+      "lastUpdateTs" : 1769668374876,
+      "longValue" : 40000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "set_kWh_year",
+      "lastUpdateTs" : 1769668374876,
+      "longValue" : 5000000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "setkWh_day",
+      "lastUpdateTs" : 1761549001288,
+      "longValue" : 10000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 10.63482528024761,
+      "jsonValue" : null,
+      "key" : "tyle",
+      "lastUpdateTs" : 1770622727275,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.821792488859727,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1769656765897,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.8275683005346411,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1769656765897,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ {
+    "configuration" : {
+      "type" : "SCRIPT",
+      "arguments" : {
+        "kW_dll" : {
+          "defaultValue" : "",
+          "refEntityKey" : {
+            "key" : "kW",
+            "scope" : "CLIENT_SCOPE",
+            "type" : "ATTRIBUTE"
+          }
+        },
+        "solar1" : {
+          "defaultValue" : "",
+          "refEntityId" : {
+            "entityType" : "DEVICE",
+            "id" : "a7b167b0-edf4-11f0-ba26-555b96a74c62"
+          },
+          "refEntityKey" : {
+            "key" : "kW",
+            "scope" : "CLIENT_SCOPE",
+            "type" : "ATTRIBUTE"
+          }
+        },
+        "solar2" : {
+          "defaultValue" : "",
+          "refEntityId" : {
+            "entityType" : "DEVICE",
+            "id" : "a68b3730-edf4-11f0-ba26-555b96a74c62"
+          },
+          "refEntityKey" : {
+            "key" : "kW",
+            "scope" : "CLIENT_SCOPE",
+            "type" : "ATTRIBUTE"
+          }
+        },
+        "solar3" : {
+          "defaultValue" : "",
+          "refEntityId" : {
+            "entityType" : "DEVICE",
+            "id" : "a44523b0-fcda-11f0-8809-331ac0fa2e11"
+          },
+          "refEntityKey" : {
+            "key" : "kW",
+            "scope" : "CLIENT_SCOPE",
+            "type" : "ATTRIBUTE"
+          }
+        }
+      },
+      "expression" : "// Sample script to convert temperature readings from Fahrenheit to Celsius\nvar kw_solar = solar1+solar2+solar3;\nreturn {\n    \"kW_Solar\": kw_solar,\n    \"kW_Load\": kW_dll,\n    \"kW_EVN\": kW_dll-kw_solar,\n    \"tyle\":kw_solar*100/kW_dll\n};",
+      "output" : {
+        "decimalsByDefault" : 2,
+        "name" : "",
+        "scope" : "SERVER_SCOPE",
+        "type" : "ATTRIBUTES"
+      }
+    },
+    "configurationVersion" : 0,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1769760070856,
+      "failuresEnabled" : true
+    },
+    "name" : "solar",
+    "tenantId" : {
+      "entityType" : "TENANT",
+      "id" : "9864ee40-af19-11f0-94c3-f75567048948"
+    },
+    "type" : "SCRIPT"
+  } ]
+}

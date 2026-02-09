@@ -1,0 +1,685 @@
+{
+  "entityType" : "DEVICE_PROFILE",
+  "entity" : {
+    "default" : false,
+    "defaultDashboardId" : null,
+    "defaultEdgeRuleChainId" : null,
+    "defaultQueueName" : null,
+    "defaultRuleChainId" : null,
+    "description" : "Default device profile",
+    "externalId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "faf9af4e-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "faf9af4e-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "image" : null,
+    "name" : "Electricity meter",
+    "profileData" : {
+      "alarms" : [ {
+        "alarmType" : "Vượt ngưỡng công suất (kW)",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "kW",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "LESS",
+                "value" : {
+                  "defaultValue" : 0.0,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "set_kW",
+                    "sourceType" : "CURRENT_DEVICE",
+                    "resolvedValue" : null
+                  },
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : "kW: ${kW}",
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "set_kW",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              }, {
+                "key" : {
+                  "key" : "kW",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : {
+                      "inherit" : false,
+                      "sourceAttribute" : "set_kW",
+                      "sourceType" : "CURRENT_DEVICE",
+                      "resolvedValue" : null
+                    },
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "90b0b7e8-4a50-4970-67b0-1f06ccd8f986",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false
+      }, {
+        "alarmType" : "Vượt ngưỡng tiêu thụ điện hôm nay",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "kWh_today",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "LESS",
+                "value" : {
+                  "defaultValue" : 0.0,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "set_kWh_today",
+                    "sourceType" : "CURRENT_DEVICE",
+                    "resolvedValue" : null
+                  },
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "set_kWh_today",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              }, {
+                "key" : {
+                  "key" : "kWh_today",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : {
+                      "inherit" : false,
+                      "sourceAttribute" : "set_kWh_today",
+                      "sourceType" : "CURRENT_DEVICE",
+                      "resolvedValue" : null
+                    },
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "8149bba4-146c-0caf-b7fb-6868cf2711b8",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false
+      }, {
+        "alarmType" : "Vượt ngưỡng tiêu thụ điện tháng",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "kWh_month",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "LESS",
+                "value" : {
+                  "defaultValue" : 0.0,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "set_kWh_month",
+                    "sourceType" : "CURRENT_DEVICE",
+                    "resolvedValue" : null
+                  },
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "set_kWh_month",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              }, {
+                "key" : {
+                  "key" : "set_kWh_month",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "LESS",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : {
+                      "inherit" : false,
+                      "sourceAttribute" : "kWh_month",
+                      "sourceType" : "CURRENT_DEVICE",
+                      "resolvedValue" : null
+                    },
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "b8c8011a-02c6-c28e-a44b-9f4f3b21c791",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false
+      }, {
+        "alarmType" : "Vượt ngưỡng tiêu thụ điện năm",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "kWh_year",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "LESS",
+                "value" : {
+                  "defaultValue" : 0.0,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "set_kWh_year",
+                    "sourceType" : "CURRENT_DEVICE",
+                    "resolvedValue" : null
+                  },
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "set_kWh_year",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              }, {
+                "key" : {
+                  "key" : "set_kWh_year",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "LESS",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : {
+                      "inherit" : false,
+                      "sourceAttribute" : "kWh_year",
+                      "sourceType" : "CURRENT_DEVICE",
+                      "resolvedValue" : null
+                    },
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "eac896ae-d434-5b8a-85fc-f6db339edbf4",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false
+      }, {
+        "alarmType" : "PF thấp",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "PF",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "GREATER",
+                "value" : {
+                  "defaultValue" : 0.0,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "set_PF",
+                    "sourceType" : "CURRENT_DEVICE",
+                    "resolvedValue" : null
+                  },
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "set_PF",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              }, {
+                "key" : {
+                  "key" : "PF",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "LESS",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : {
+                      "inherit" : false,
+                      "sourceAttribute" : "set_PF",
+                      "sourceType" : "CURRENT_DEVICE",
+                      "resolvedValue" : null
+                    },
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "3762637c-15aa-ec9a-cf91-1d0f89bd15cc",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false
+      }, {
+        "alarmType" : "Meter disconnected",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "connect",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "BOOLEAN",
+                "operation" : "EQUAL",
+                "value" : {
+                  "defaultValue" : true,
+                  "dynamicValue" : null,
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "BOOLEAN"
+            } ],
+            "spec" : {
+              "type" : "DURATION",
+              "predicate" : {
+                "defaultValue" : 30,
+                "dynamicValue" : null,
+                "userValue" : null
+              },
+              "unit" : "SECONDS"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "connect",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "BOOLEAN",
+                  "operation" : "EQUAL",
+                  "value" : {
+                    "defaultValue" : false,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "BOOLEAN"
+              } ],
+              "spec" : {
+                "type" : "DURATION",
+                "predicate" : {
+                  "defaultValue" : 10,
+                  "dynamicValue" : null,
+                  "userValue" : null
+                },
+                "unit" : "SECONDS"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "9980bd47-e59e-c4ea-ca85-a94540fe6f52",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false
+      }, {
+        "alarmType" : "Nhiệt độ vượt ngưỡng",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "temp",
+                "type" : "TIME_SERIES"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "LESS",
+                "value" : {
+                  "defaultValue" : 0.0,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "temp_max",
+                    "sourceType" : "CURRENT_DEVICE",
+                    "resolvedValue" : null
+                  },
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "temp_max",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              }, {
+                "key" : {
+                  "key" : "temp",
+                  "type" : "TIME_SERIES"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : {
+                      "inherit" : false,
+                      "sourceAttribute" : "temp_max",
+                      "sourceType" : "CURRENT_DEVICE",
+                      "resolvedValue" : null
+                    },
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "6b80fa7c-9a1a-03b4-f404-dae89349be39",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false
+      } ],
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "provisionConfiguration" : {
+        "type" : "DISABLED",
+        "provisionDeviceSecret" : null
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "provisionDeviceKey" : null,
+    "provisionType" : "DISABLED",
+    "softwareId" : null,
+    "transportType" : "DEFAULT",
+    "type" : "DEFAULT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ {
+    "configuration" : {
+      "type" : "SCRIPT",
+      "arguments" : {
+        "test1" : {
+          "defaultValue" : "",
+          "refEntityKey" : {
+            "key" : "test",
+            "type" : "TS_LATEST"
+          }
+        }
+      },
+      "expression" : "// Sample script to convert temperature readings from Fahrenheit to Celsius\nreturn ctx;",
+      "output" : {
+        "name" : "",
+        "scope" : "SERVER_SCOPE",
+        "type" : "ATTRIBUTES"
+      }
+    },
+    "configurationVersion" : 0,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1759974860298,
+      "failuresEnabled" : true
+    },
+    "name" : "test_tinhtoan",
+    "tenantId" : {
+      "entityType" : "TENANT",
+      "id" : "9864ee40-af19-11f0-94c3-f75567048948"
+    },
+    "type" : "SCRIPT"
+  } ]
+}

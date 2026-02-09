@@ -1,0 +1,40 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "data" : "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczp0Yj0iaHR0cHM6Ly90aGluZ3Nib2FyZC5pby9zdmciIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHRiOm1ldGFkYXRhIHhtbG5zPSIiPjwhW0NEQVRBW3sKICAidGl0bGUiOiAiZmFjdG9yeV8xLnN2ZyIsCiAgIndpZGdldFNpemVYIjogMSwKICAid2lkZ2V0U2l6ZVkiOiAxLAogICJ0YWdzIjogW10sCiAgImJlaGF2aW9yIjogW10sCiAgInByb3BlcnRpZXMiOiBbXQp9XV0+PC90YjptZXRhZGF0YT4KPGRlc2M+Q29weXJpZ2h0IE9wdG8gMjI8L2Rlc2M+IAo8Zz4KPGcgaWQ9InNoYXBlIj4KCTxwb2x5Z29uIGZpbGw9IiM5OTkiIHBvaW50cz0iOTMuNzQ1LDU4IDkxLjYzOSwzLjUgODUuODYxLDMuNSA4My43NTUsNTggNzguODc1LDU4IDY3LDQ4LjUgNjcsNTggNjMuNDM4LDU4IDUxLjU2Myw0OC41ICAgIDUxLjU2Myw1OCA0OCw1OCAzNi4xMjUsNDguNSAzNi4xMjUsNTggMzIuNTYzLDU4IDIwLjY4OCw0OC41IDIwLjY4OCw1OCAxNy4xMjUsNTggNS4yNSw0OC41IDUuMjUsNTggMCw1OCAwLDEwMCAxMDAsMTAwIDEwMCw1OCAgICAgIi8+CjwvZz4KPGcgaWQ9ImhsaWdodHMiPgoKCQk8cmVjdCB4PSI5LjUiIHk9IjY1LjUiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSI1IiBoZWlnaHQ9IjkuNSIvPgoJCTxyZWN0IHg9IjI1LjIiIHk9IjY1LjUiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSI1IiBoZWlnaHQ9IjkuNSIvPgoJCTxyZWN0IHg9IjQwLjkiIHk9IjY1LjUiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSI1IiBoZWlnaHQ9IjkuNSIvPgoJCTxyZWN0IHg9IjU2LjYiIHk9IjY1LjUiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSI1IiBoZWlnaHQ9IjkuNSIvPgoJCTxyZWN0IHg9IjcyLjMiIHk9IjY1LjUiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSI1IiBoZWlnaHQ9IjkuNSIvPgoJCTxyZWN0IHg9Ijg4IiB5PSI2NS41IiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iNSIgaGVpZ2h0PSI5LjUiLz4KCgk8cG9seWdvbiBmaWxsPSIjRkZGRkZGIiBwb2ludHM9IjMyLjUsMTAwIDMyLDEwMCAzMiw4My41IDEwLDgzLjUgMTAsMTAwIDksMTAwIDksODIuNSAzMi41LDgyLjUgICIvPgoJPHBvbHlnb24gZmlsbD0iI0ZGRkZGRiIgcG9pbnRzPSI2MiwxMDAgNjEuNSwxMDAgNjEuNSw4My41IDM5LjUsODMuNSAzOS41LDEwMCAzOC41LDEwMCAzOC41LDgyLjUgNjIsODIuNSAgIi8+Cgk8cG9seWdvbiBmaWxsPSIjRkZGRkZGIiBwb2ludHM9Ijc5LDEwMCA3OC41LDEwMCA3OC41LDkyLjUgNzQuNSw5Mi41IDc0LjUsMTAwIDczLjUsMTAwIDczLjUsOTEuNSA3OSw5MS41ICAiLz4KPC9nPgo8L2c+Cgo8L3N2Zz4=",
+    "descriptor" : {
+      "mediaType" : "image/svg+xml",
+      "width" : 100,
+      "height" : 100,
+      "size" : 1436,
+      "etag" : "96c41f5e163856f098314f31cf66fc1426e6a4ca7085fbd073fe368c2a1abf8f",
+      "previewDescriptor" : {
+        "mediaType" : "image/svg+xml",
+        "width" : 100,
+        "height" : 100,
+        "size" : 1266,
+        "etag" : "7f3028d29e97266d38c22c96bb84d201d199f1a5fb52c3e273deaa52cd9ed250"
+      }
+    },
+    "etag" : "96c41f5e163856f098314f31cf66fc1426e6a4ca7085fbd073fe368c2a1abf8f",
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "f3a3ce50-f7d8-11ef-81d8-3ffb318f1501"
+    },
+    "fileName" : "factory_1.svg",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "f3a3ce50-f7d8-11ef-81d8-3ffb318f1501"
+    },
+    "link" : "/api/images/tenant/factory_1.svg",
+    "name" : "factory_1.svg",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/NTDFkd9gDRXgDSooGdSR8XqUUE2y9dcF",
+    "publicResourceKey" : "NTDFkd9gDRXgDSooGdSR8XqUUE2y9dcF",
+    "resourceKey" : "factory_1.svg",
+    "resourceSubType" : "SCADA_SYMBOL",
+    "resourceType" : "IMAGE",
+    "title" : "factory_1.svg"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "lastConnectedGateway" : "68492a60-afcc-11f0-94c3-f75567048948"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f2559730-0589-11f1-abf4-490de52379ba"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "d57c3e60-fcf2-11f0-8809-331ac0fa2e11"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "53abfda1-fceb-11f0-8809-331ac0fa2e11"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "53abfda1-fceb-11f0-8809-331ac0fa2e11"
+    },
+    "label" : null,
+    "name" : "MDB 2-8",
+    "softwareId" : null,
+    "type" : "MSB"
+  },
+  "credentials" : {
+    "credentialsId" : "4igJSUsI6xUmm4OvDyjp",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "966a9330-a4b8-11f0-979a-c952bd8fc647"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "53abfda1-fceb-11f0-8809-331ac0fa2e11"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 6557
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1770621507373,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1770621486292,
+      "longValue" : 1770621486292,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1770622729191,
+      "longValue" : 1770622727776,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1770622467728,
+      "longValue" : 1770622467728,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1770622439155,
+      "longValue" : 1770622439155,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[[0.134683581491212,0.6800854640602946],[0.17303677419205232,0.7170916064732772]]",
+      "key" : "perimeter",
+      "lastUpdateTs" : 1769676944281,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[[0.42055348258706465,0.21834763948497854],[0.4496268656716418,0.20359442060085836],[0.48616293532338306,0.2317596566523605],[0.45848880597014924,0.24973175965665237],[0.45149253731343286,0.3873390557939914],[0.4427860696517413,0.37741416309012876],[0.44465174129353235,0.33932403433476394],[0.4185323383084577,0.3125]]",
+      "key" : "perimeter2",
+      "lastUpdateTs" : 1769738862837,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.4521144278606965,
+      "jsonValue" : null,
+      "key" : "xPos2",
+      "lastUpdateTs" : 1769738866230,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.2255901287553648,
+      "jsonValue" : null,
+      "key" : "yPos2",
+      "lastUpdateTs" : 1769738866230,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

@@ -1,0 +1,40 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "data" : "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczp0Yj0iaHR0cHM6Ly90aGluZ3Nib2FyZC5pby9zdmciIGlkPSJlaE1XbnZVaW1HQTEiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiBzaGFwZS1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgcHJvamVjdC1pZD0iYjIxOTExZTcwNGZmNGRkZmE3YjBiMWZkOTczODE2ZGYiIGV4cG9ydC1pZD0iNmIwNzcxNTczMGMwNGE2YzkxNzI3NTg5ZTI3NjY4ZmMiIGNhY2hlZD0iZmFsc2UiPjx0YjptZXRhZGF0YSB4bWxucz0iIj48IVtDREFUQVt7CiAgInRpdGxlIjogInRyYW0gYmExLnN2ZyIsCiAgIndpZGdldFNpemVYIjogMSwKICAid2lkZ2V0U2l6ZVkiOiAxLAogICJ0YWdzIjogWwogICAgewogICAgICAidGFnIjogImxpbmUiLAogICAgICAic3RhdGVSZW5kZXJGdW5jdGlvbiI6ICJlbGVtZW50LnN0cm9rZShjdHgucHJvcGVydGllcy5saW5lQ29sb3IpO1xuZWxlbWVudC5hdHRyKHsnc3Ryb2tlLXdpZHRoJzogY3R4LnByb3BlcnRpZXMubGluZVNpemV9KTsiLAogICAgICAiYWN0aW9ucyI6IG51bGwKICAgIH0KICBdLAogICJiZWhhdmlvciI6IFtdLAogICJwcm9wZXJ0aWVzIjogWwogICAgewogICAgICAiaWQiOiAibGluZUNvbG9yIiwKICAgICAgIm5hbWUiOiAiTcOgdSBsaW5lIiwKICAgICAgInR5cGUiOiAiY29sb3Jfc2V0dGluZ3MiLAogICAgICAiZGVmYXVsdCI6IHsKICAgICAgICAidHlwZSI6ICJjb25zdGFudCIsCiAgICAgICAgImNvbG9yIjogIiMwMDAiLAogICAgICAgICJjb2xvckZ1bmN0aW9uIjogInZhciB0ZW1wZXJhdHVyZSA9IHZhbHVlO1xuaWYgKHR5cGVvZiB0ZW1wZXJhdHVyZSAhPT0gdW5kZWZpbmVkKSB7XG4gIHZhciBwZXJjZW50ID0gKHRlbXBlcmF0dXJlICsgNjApLzEyMCAqIDEwMDtcbiAgcmV0dXJuIHRpbnljb2xvci5taXgoJ2JsdWUnLCAncmVkJywgcGVyY2VudCkudG9IZXhTdHJpbmcoKTtcbn1cbnJldHVybiAnYmx1ZSc7IgogICAgICB9LAogICAgICAicmVxdWlyZWQiOiBudWxsLAogICAgICAic3ViTGFiZWwiOiBudWxsLAogICAgICAiZGl2aWRlciI6IG51bGwsCiAgICAgICJmaWVsZFN1ZmZpeCI6IG51bGwsCiAgICAgICJkaXNhYmxlT25Qcm9wZXJ0eSI6IG51bGwsCiAgICAgICJyb3dDbGFzcyI6ICIiLAogICAgICAiZmllbGRDbGFzcyI6ICIiLAogICAgICAibWluIjogbnVsbCwKICAgICAgIm1heCI6IG51bGwsCiAgICAgICJzdGVwIjogbnVsbAogICAgfSwKICAgIHsKICAgICAgImlkIjogImxpbmVTaXplIiwKICAgICAgIm5hbWUiOiAiTGluZSBTaXplIiwKICAgICAgInR5cGUiOiAibnVtYmVyIiwKICAgICAgImRlZmF1bHQiOiAxLAogICAgICAicmVxdWlyZWQiOiB0cnVlLAogICAgICAic3ViTGFiZWwiOiBudWxsLAogICAgICAiZGl2aWRlciI6IG51bGwsCiAgICAgICJmaWVsZFN1ZmZpeCI6IG51bGwsCiAgICAgICJkaXNhYmxlT25Qcm9wZXJ0eSI6IG51bGwsCiAgICAgICJyb3dDbGFzcyI6ICIiLAogICAgICAiZmllbGRDbGFzcyI6ICIiLAogICAgICAibWluIjogbnVsbCwKICAgICAgIm1heCI6IG51bGwsCiAgICAgICJzdGVwIjogbnVsbAogICAgfQogIF0KfV1dPjwvdGI6bWV0YWRhdGE+CjxnPjxlbGxpcHNlIHJ4PSIyNy41IiByeT0iMjcuNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAgMjguMDQ5NzM3KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiB0Yjp0YWc9ImxpbmUiLz48ZWxsaXBzZSByeD0iMjcuNSIgcnk9IjI3LjUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUwIDcxLjk1MDI2MykiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMCIgdGI6dGFnPSJsaW5lIi8+PGxpbmUgeDE9IjUuNzc3MTg0IiB5MT0iMCIgeDI9Ii01Ljc3NzE4NCIgeTI9IjAiIHRyYW5zZm9ybT0ibWF0cml4KDEuMTk3MTMyIDAgMCAxIDE1LjI3ODYxNiAyNy40ODAzNCkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzQzNDM0MyIgdGI6dGFnPSJsaW5lIi8+PGxpbmUgeDE9Ii02LjEzNTk3MyIgeTE9IjAiIHgyPSI2LjEzNTk3MyIgeTI9IjAiIHRyYW5zZm9ybT0ibWF0cml4KDEuMDc4MTQ2IDAgMCAxIDguODEyNDg2IDcxLjk1MDI2MykiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzQzNDM0MyIvPjxsaW5lIHgxPSItMy4zMzQxNTUiIHkxPSIwIiB4Mj0iMy4zMzQxNTUiIHkyPSIwIiB0cmFuc2Zvcm09Im1hdHJpeCgxLjIzMjc0MyAwIDAtMSA4LjgxMjQ4NiA3NC45OTM1MzcpIiBmaWxsPSJub25lIiBzdHJva2U9IiM0MzQzNDMiLz48bGluZSB4MT0iLTEuNDcxNTIyIiB5MT0iMCIgeDI9IjEuNDcxNTIyIiB5Mj0iMCIgdHJhbnNmb3JtPSJtYXRyaXgoMS4zOTAyNDQgMCAwLTEgOC44MTI0ODYgNzguMDYwNjkzKSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNDM0MzQzIi8+PGxpbmUgeDE9IjAiIHkxPSIyMi4yMzQ5NjIiIHgyPSIwIiB5Mj0iLTIyLjIzNDk2MiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoOC44MTI0ODYgNDkuNzE1MzAyKSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNDM0MzQzIiB0Yjp0YWc9ImxpbmUiLz48cG9seWdvbiBwb2ludHM9IjAsLTE5LjMwMzMwMSAxNi43MTcxNDksOS42NTE2NSAtMTYuNzE3MTQ5LDkuNjUxNjUgMCwtMTkuMzAzMzAxIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0OS40MzY2NjUgMjYuODE4MDg4KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiB0Yjp0YWc9ImxpbmUiLz48cG9seWdvbiBwb2ludHM9IjAsLTE5LjMwMzMwMSAxNi43MTcxNDksOS42NTE2NSAtMTYuNzE3MTQ5LDkuNjUxNjUgMCwtMTkuMzAzMzAxIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0OS40MzY2NjUgNzYuNzc2MDkpIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAiIHRiOnRhZz0ibGluZSIvPjwvZz4KPC9zdmc+",
+    "descriptor" : {
+      "mediaType" : "image/svg+xml",
+      "width" : 100,
+      "height" : 100,
+      "size" : 2916,
+      "etag" : "5f866063e04ec651ee32f9434048fe10fbb7bf0c6b964867573bf670159f27ab",
+      "previewDescriptor" : {
+        "mediaType" : "image/svg+xml",
+        "width" : 100,
+        "height" : 100,
+        "size" : 1579,
+        "etag" : "fb338a666104d27531bd92342335cc09c7b7dce9ab4c0338a8832cc3dacfd4da"
+      }
+    },
+    "etag" : "5f866063e04ec651ee32f9434048fe10fbb7bf0c6b964867573bf670159f27ab",
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "187b6760-fe64-11ef-81d8-3ffb318f1501"
+    },
+    "fileName" : "tram ba1.svg",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "187b6760-fe64-11ef-81d8-3ffb318f1501"
+    },
+    "link" : "/api/images/tenant/tram ba1.svg",
+    "name" : "tram ba1.svg",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/WF0xoynBkHt7AweqdnVcevMHxsXxMkT7",
+    "publicResourceKey" : "WF0xoynBkHt7AweqdnVcevMHxsXxMkT7",
+    "resourceKey" : "tram ba1.svg",
+    "resourceSubType" : "SCADA_SYMBOL",
+    "resourceType" : "IMAGE",
+    "title" : "tram ba1.svg"
+  }
+}

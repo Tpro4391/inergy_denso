@@ -1,0 +1,565 @@
+{
+  "entityType" : "DEVICE_PROFILE",
+  "entity" : {
+    "default" : false,
+    "defaultDashboardId" : null,
+    "defaultEdgeRuleChainId" : null,
+    "defaultQueueName" : null,
+    "defaultRuleChainId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "c5ef7db0-f31e-11ef-83a6-378fabb0e742"
+    },
+    "description" : "",
+    "externalId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "577c64f0-f32e-11ef-902b-e3a157f1ab5b"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "577c64f0-f32e-11ef-902b-e3a157f1ab5b"
+    },
+    "image" : null,
+    "name" : "Factory",
+    "profileData" : {
+      "alarms" : [ {
+        "alarmType" : "Over kW threshold",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "kW",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "LESS",
+                "value" : {
+                  "defaultValue" : 0.0,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "set_kW",
+                    "sourceType" : "CURRENT_DEVICE",
+                    "resolvedValue" : null
+                  },
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : "Power: ${kW}kW (Seting: ${set_kW}kW)",
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "set_kW",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              }, {
+                "key" : {
+                  "key" : "kW",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : {
+                      "inherit" : false,
+                      "sourceAttribute" : "set_kW",
+                      "sourceType" : "CURRENT_DEVICE",
+                      "resolvedValue" : null
+                    },
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "61c222f1-94fa-eaaa-6892-2aaf66023ef7",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false
+      }, {
+        "alarmType" : "Over current threshold",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "I1",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "LESS",
+                "value" : {
+                  "defaultValue" : 0.0,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "set_I",
+                    "sourceType" : "CURRENT_DEVICE",
+                    "resolvedValue" : null
+                  },
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            }, {
+              "key" : {
+                "key" : "I2",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "LESS",
+                "value" : {
+                  "defaultValue" : 0.0,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "set_I",
+                    "sourceType" : "CURRENT_DEVICE",
+                    "resolvedValue" : null
+                  },
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            }, {
+              "key" : {
+                "key" : "I3",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "LESS",
+                "value" : {
+                  "defaultValue" : 0.0,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "set_I",
+                    "sourceType" : "CURRENT_DEVICE",
+                    "resolvedValue" : null
+                  },
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "set_I",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              }, {
+                "key" : {
+                  "key" : "set_I",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "COMPLEX",
+                  "operation" : "OR",
+                  "predicates" : [ {
+                    "type" : "NUMERIC",
+                    "operation" : "LESS",
+                    "value" : {
+                      "defaultValue" : 0.0,
+                      "dynamicValue" : {
+                        "inherit" : false,
+                        "sourceAttribute" : "I1",
+                        "sourceType" : "CURRENT_DEVICE",
+                        "resolvedValue" : null
+                      },
+                      "userValue" : null
+                    }
+                  }, {
+                    "type" : "NUMERIC",
+                    "operation" : "LESS",
+                    "value" : {
+                      "defaultValue" : 0.0,
+                      "dynamicValue" : {
+                        "inherit" : false,
+                        "sourceAttribute" : "I2",
+                        "sourceType" : "CURRENT_DEVICE",
+                        "resolvedValue" : null
+                      },
+                      "userValue" : null
+                    }
+                  }, {
+                    "type" : "NUMERIC",
+                    "operation" : "LESS",
+                    "value" : {
+                      "defaultValue" : 0.0,
+                      "dynamicValue" : {
+                        "inherit" : false,
+                        "sourceAttribute" : "I3",
+                        "sourceType" : "CURRENT_DEVICE",
+                        "resolvedValue" : null
+                      },
+                      "userValue" : null
+                    }
+                  } ]
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "4ce16e4f-fb51-adba-1a80-6adf4d287a74",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false
+      }, {
+        "alarmType" : "Over kWh today",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "kWh_today",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "LESS",
+                "value" : {
+                  "defaultValue" : 0.0,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "setkWh_today",
+                    "sourceType" : "CURRENT_DEVICE",
+                    "resolvedValue" : null
+                  },
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "WARNING" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "setkWh_day",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              }, {
+                "key" : {
+                  "key" : "kWh_today",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : {
+                      "inherit" : false,
+                      "sourceAttribute" : "setkWh_day",
+                      "sourceType" : "CURRENT_DEVICE",
+                      "resolvedValue" : null
+                    },
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "bc7a48a5-e297-ee9a-b835-1e51db60c0f5",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false
+      }, {
+        "alarmType" : "Over kWh month",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "kWh_month",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "LESS",
+                "value" : {
+                  "defaultValue" : 0.0,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "setkWh_month",
+                    "sourceType" : "CURRENT_DEVICE",
+                    "resolvedValue" : null
+                  },
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "WARNING" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "setkWh_month",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              }, {
+                "key" : {
+                  "key" : "kWh_month",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : {
+                      "inherit" : false,
+                      "sourceAttribute" : "setkWh_month",
+                      "sourceType" : "CURRENT_DEVICE",
+                      "resolvedValue" : null
+                    },
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "dfae77f0-0f0f-adc5-e11f-c5314b9fa278",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false
+      }, {
+        "alarmType" : "Over kWh year",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "kWh_year",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "LESS",
+                "value" : {
+                  "defaultValue" : 0.0,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "setkWh_year",
+                    "sourceType" : "CURRENT_DEVICE",
+                    "resolvedValue" : null
+                  },
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "WARNING" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "setkWh_year",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              }, {
+                "key" : {
+                  "key" : "kWh_year",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : {
+                      "inherit" : false,
+                      "sourceAttribute" : "setkWh_year",
+                      "sourceType" : "CURRENT_DEVICE",
+                      "resolvedValue" : null
+                    },
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "8efafd05-863c-0e9e-e549-347e39ea6b40",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false
+      } ],
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "provisionConfiguration" : {
+        "type" : "DISABLED",
+        "provisionDeviceSecret" : null
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "provisionDeviceKey" : null,
+    "provisionType" : "DISABLED",
+    "softwareId" : null,
+    "transportType" : "DEFAULT",
+    "type" : "DEFAULT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

@@ -1,0 +1,37 @@
+{
+  "entityType" : "WIDGET_TYPE",
+  "entity" : {
+    "fqn" : "b_ng_kw2",
+    "name" : "Bảng kW",
+    "deprecated" : false,
+    "image" : null,
+    "description" : null,
+    "descriptor" : {
+      "type" : "latest",
+      "sizeX" : 7.5,
+      "sizeY" : 3,
+      "resources" : [ ],
+      "templateHtml" : "<div id=\"tableContainer\"></div>",
+      "templateCss" : "#tableContainer{\n  width: 100%;\n    height: 100%;  \n}\ntable{\n    width: 100%;\n    height: 100%;\n}\nthead{\n    background-color: #00695f;\n    color: #fff;\n    height: 30%;\n    \n}\ntd, th{\n    font-size: 14px;\n}",
+      "controllerScript" : "// Khởi tạo bảng khi widget load\r\nself.onInit = function() {\r\n    let container = document.getElementById(\"tableContainer\");\r\n    if (!container) {\r\n        let div = document.createElement(\"div\");\r\n        div.id = \"tableContainer\";\r\n        document.body.appendChild(div);\r\n    }\r\n};\r\n\r\n// ThingsBoard sẽ gọi hàm này khi có dữ liệu mới\r\nself.onDataUpdated = function() {\r\n    var rawData = self.ctx.data;\r\n    let structuredData = {};\r\n    let Tdelta = 0;\r\n    // console.log(rawData);\r\n    // Duyệt qua dữ liệu và gom nhóm theo entityName\r\n    rawData.forEach(item => {\r\n        let entityName = item.datasource.name;\r\n        let key = item.dataKey.name;\r\n        let value = item.data.length > 0 ? item.data[0][1] : null;\r\n        if(entityName===\"PLC\"&&key===\"Tdelta\"){\r\n           Tdelta = value; \r\n        } else{\r\n            // Khởi tạo đối tượng nếu chưa có\r\n        if (!structuredData[entityName]) {\r\n            structuredData[entityName] = { entityName, No: null, PV: null, SV: null };\r\n        }\r\n\r\n        // Gán giá trị tương ứng\r\n        if (key === \"No\") structuredData[entityName].No = value;\r\n        if (key === \"PV\") structuredData[entityName].PV = value;\r\n        if (key === \"SV\") structuredData[entityName].SV = value;\r\n        }\r\n        \r\n    });\r\n\r\n    // Chuyển thành mảng và sắp xếp theo `No`\r\n    let data = Object.values(structuredData).filter(item => item.No !== null);\r\n    data.sort((a, b) => a.No - b.No);\r\n    // Lấy container bảng\r\n    let container = document.getElementById(\"tableContainer\");\r\n    if (!container) return;\r\n\r\n    // Xóa nội dung cũ (tránh nháy)\r\n    container.innerHTML = \"\";\r\n\r\n    // Tạo bảng HTML\r\n    let table = `<table border=\"1\" style=\"border-collapse: collapse; text-align: center;\">\r\n                    <thead>\r\n                        <tr>\r\n                            <th>SS</th>`;\r\n\r\n    // Thêm tiêu đề từ entityName\r\n    data.forEach(item => {\r\n        table += `<th>${item.entityName}</th>`;\r\n    });\r\n\r\n    table += `   </tr>\r\n                </thead>\r\n                <tbody>\r\n                    <tr>\r\n                        <td><b>PV</b></td>`;\r\n    data.forEach(item => {\r\n        let cellColor = (item.PV > item.SV + Tdelta || item.PV < item.SV - Tdelta) ? \r\n            'background-color: red; color: white;' : '';\r\n        \r\n        table += `<td style=\"${cellColor}\">${item.PV !== null ? item.PV : \"\"}</td>`;\r\n    });\r\n    table += `   </tr>\r\n                    <tr>\r\n                        <td><b>SV</b></td>`;\r\n    data.forEach(item => {\r\n        table += `<td>${item.SV !== null ? item.SV : \"\"}</td>`;\r\n    });\r\n    table += `   </tr>\r\n                </tbody>\r\n            </table>`;\r\n\r\n    // Gán bảng vào container\r\n    container.innerHTML = table;\r\n};\r\n\r\n\r\n\r\n// Dọn dẹp khi widget bị hủy\r\nself.onDestroy = function() {\r\n    let container = document.getElementById(\"tableContainer\");\r\n    if (container) container.innerHTML = \"\";\r\n};\r\n",
+      "settingsSchema" : "{}",
+      "dataKeySettingsSchema" : "{}\n",
+      "defaultConfig" : "{\"datasources\":[{\"type\":\"function\",\"name\":\"function\",\"dataKeys\":[{\"name\":\"f(x)\",\"type\":\"function\",\"label\":\"Random\",\"color\":\"#2196f3\",\"settings\":{},\"_hash\":0.15479322438769105,\"funcBody\":\"var value = prevValue + Math.random() * 100 - 50;\\nvar multiplier = Math.pow(10, 2 || 0);\\nvar value = Math.round(value * multiplier) / multiplier;\\nif (value < -1000) {\\n\\tvalue = -1000;\\n} else if (value > 1000) {\\n\\tvalue = 1000;\\n}\\nreturn value;\"}]}],\"timewindow\":{\"realtime\":{\"timewindowMs\":60000}},\"showTitle\":true,\"backgroundColor\":\"#fff\",\"color\":\"rgba(0, 0, 0, 0.87)\",\"padding\":\"8px\",\"settings\":{},\"title\":\"Bảng kW\",\"decimals\":null}"
+    },
+    "externalId" : {
+      "entityType" : "WIDGET_TYPE",
+      "id" : "18584f00-fe64-11ef-81d8-3ffb318f1501"
+    },
+    "resources" : null,
+    "id" : {
+      "entityType" : "WIDGET_TYPE",
+      "id" : "18584f00-fe64-11ef-81d8-3ffb318f1501"
+    },
+    "scada" : false,
+    "tags" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

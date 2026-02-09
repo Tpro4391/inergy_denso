@@ -1,0 +1,203 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "lastConnectedGateway" : "68492a60-afcc-11f0-94c3-f75567048948"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f2559730-0589-11f1-abf4-490de52379ba"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "39595960-edf6-11f0-ba26-555b96a74c62"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "a7b167b0-edf4-11f0-ba26-555b96a74c62"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "a7b167b0-edf4-11f0-ba26-555b96a74c62"
+    },
+    "label" : null,
+    "name" : "Solar Trạm 1",
+    "softwareId" : null,
+    "type" : "Solar"
+  },
+  "credentials" : {
+    "credentialsId" : "FnNYiRWSeD5Qccjds70c",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "44ae6e90-d569-11f0-a5cd-018a63ea0b87"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "a7b167b0-edf4-11f0-ba26-555b96a74c62"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 6155
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1770621495627,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1770621485874,
+      "longValue" : 1770621485874,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "kWh_month",
+      "lastUpdateTs" : 1768904910764,
+      "longValue" : 12868,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "kWh_today",
+      "lastUpdateTs" : 1768904910762,
+      "longValue" : 1347,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "kWh_week",
+      "lastUpdateTs" : 1768904910762,
+      "longValue" : 1981,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "kWh_year",
+      "lastUpdateTs" : 1768904910763,
+      "longValue" : 12868,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1770622729184,
+      "longValue" : 1770622726468,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1770622456319,
+      "longValue" : 1770622456319,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1770622439148,
+      "longValue" : 1770622439148,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[[0.8966196439762714,0.168917879950716],[0.9570063888822582,0.2056516346836611]]",
+      "key" : "perimeter",
+      "lastUpdateTs" : 1769678211825,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[[0.8984431300498443,0.16569910133465934],[0.9586002863747416,0.221092842029001]]",
+      "key" : "perimeter2",
+      "lastUpdateTs" : 1769677435966,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 9.44,
+      "jsonValue" : null,
+      "key" : "tyle",
+      "lastUpdateTs" : 1770622726888,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ {
+    "configuration" : {
+      "type" : "SIMPLE",
+      "arguments" : {
+        "kw" : {
+          "defaultValue" : "",
+          "refEntityKey" : {
+            "key" : "kW",
+            "scope" : "CLIENT_SCOPE",
+            "type" : "ATTRIBUTE"
+          }
+        },
+        "kw_tong" : {
+          "defaultValue" : "",
+          "refEntityId" : {
+            "entityType" : "DEVICE",
+            "id" : "a7b167b1-edf4-11f0-ba26-555b96a74c62"
+          },
+          "refEntityKey" : {
+            "key" : "kW_Main",
+            "scope" : "CLIENT_SCOPE",
+            "type" : "ATTRIBUTE"
+          }
+        }
+      },
+      "expression" : "(kw/kw_tong)*100",
+      "output" : {
+        "decimalsByDefault" : 2,
+        "name" : "tyle",
+        "scope" : "SERVER_SCOPE",
+        "type" : "ATTRIBUTES"
+      },
+      "useLatestTs" : false
+    },
+    "configurationVersion" : 0,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1769402987701,
+      "failuresEnabled" : true
+    },
+    "name" : "ty le",
+    "tenantId" : {
+      "entityType" : "TENANT",
+      "id" : "9864ee40-af19-11f0-94c3-f75567048948"
+    },
+    "type" : "SIMPLE"
+  } ]
+}

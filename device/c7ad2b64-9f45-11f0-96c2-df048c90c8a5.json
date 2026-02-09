@@ -1,0 +1,149 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "lastConnectedGateway" : "44ae6e90-d569-11f0-a5cd-018a63ea0b87"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f2559730-0589-11f1-abf4-490de52379ba"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "38dae0b2-f326-11ef-902b-e3a157f1ab5b"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "c7ad2b64-9f45-11f0-96c2-df048c90c8a5"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "c7ad2b64-9f45-11f0-96c2-df048c90c8a5"
+    },
+    "label" : null,
+    "name" : "Pro4_MC",
+    "softwareId" : null,
+    "type" : "Air meter"
+  },
+  "credentials" : {
+    "credentialsId" : "cuOTV6Qn8k5ZYJhwEeKJ",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "c7ad2b64-9f45-11f0-96c2-df048c90c8a5"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fb7ce900-9eb2-11f0-96c2-df048c90c8a5"
+    },
+    "type" : "Air2",
+    "typeGroup" : "COMMON",
+    "version" : 2842
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1768787115733,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1768787115733,
+      "longValue" : 1768787115733,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1768786496903,
+      "longValue" : 1768786496522,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1768785844153,
+      "longValue" : 1768785844153,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1768786496544,
+      "longValue" : 1768786496544,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "m3Air_month",
+      "lastUpdateTs" : 1768631759006,
+      "longValue" : 202070,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "m3Air_today",
+      "lastUpdateTs" : 1768631759006,
+      "longValue" : 8731,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "m3Air_week",
+      "lastUpdateTs" : 1768631759006,
+      "longValue" : 79249,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "m3Air_year",
+      "lastUpdateTs" : 1768631759006,
+      "longValue" : 202070,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.7352688897679939,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1761290961367,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1761290961367,
+      "longValue" : null,
+      "strValue" : "0.26752066158580173"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

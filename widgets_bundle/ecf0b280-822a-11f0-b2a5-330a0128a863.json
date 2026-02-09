@@ -1,0 +1,25 @@
+{
+  "entityType" : "WIDGETS_BUNDLE",
+  "entity" : {
+    "alias" : "tien_widget",
+    "description" : null,
+    "externalId" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "ecf0b280-822a-11f0-b2a5-330a0128a863"
+    },
+    "id" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "ecf0b280-822a-11f0-b2a5-330a0128a863"
+    },
+    "image" : null,
+    "name" : "Tien-Widget",
+    "order" : null,
+    "scada" : false,
+    "title" : "Tien-Widget"
+  },
+  "fqns" : [ "tien_widget.timer_schuduler" ],
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

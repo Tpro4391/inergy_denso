@@ -1,0 +1,40 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "data" : "PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIltdPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iX3gyM19feDIzX1doaXRlX3g1Rl9QaWxvdF94NUZfTGlnaHQyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4IiB2aWV3Qm94PSIwIDAgMTEyLjUgMTEyLjUiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDExMi41IDExMi41IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnIGlkPSJHcm91cF9XaGl0ZV9QaWxvdF9MaWdodDIiPg0KPHBhdGggZmlsbD0iI0NDQ0NDQyIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjAuNSIgZD0iTTExMi4xNTksNTYuMjQ5YzAtMzEuMDI3LTI1LjAzMS01Ni4xOTItNTUuOTA5LTU2LjE5MiAgYy0zMC44NzYsMC01NS45MDksMjUuMTY2LTU1LjkwOSw1Ni4xOTJjMCwzMS4wMywyNS4wMzMsNTYuMTk0LDU1LjkwOSw1Ni4xOTRDODcuMTI4LDExMi40NDMsMTEyLjE1OSw4Ny4yNzksMTEyLjE1OSw1Ni4yNDl6IiAvPg0KPHJhZGlhbEdyYWRpZW50IGlkPSJTVkdJRF8xXyIgY3g9IjM4Ljk5MzIiIGN5PSI0My4yNjYxIiByPSIzMy42NDc5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+DQoJPHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojRjdGN0Y3IiAvPg0KCTxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6I0NEQ0RDRCIgLz4NCjwvcmFkaWFsR3JhZGllbnQ+DQo8ZWxsaXBzZSBmaWxsPSJ1cmwoI1NWR0lEXzFfKSIgY3g9IjM4Ljk5MyIgY3k9IjQzLjI2NiIgcng9IjM1LjExNCIgcnk9IjMyLjExNSIgLz4NCjwvZz4NCjwvc3ZnPg==",
+    "descriptor" : {
+      "mediaType" : "image/svg+xml",
+      "width" : 64,
+      "height" : 64,
+      "size" : 943,
+      "etag" : "fd6b96f902fb933e29cb64d32d49fe85b1b9c3d1e4108b90774f9b009867b25f",
+      "previewDescriptor" : {
+        "mediaType" : "image/svg+xml",
+        "width" : 64,
+        "height" : 64,
+        "size" : 943,
+        "etag" : "fd6b96f902fb933e29cb64d32d49fe85b1b9c3d1e4108b90774f9b009867b25f"
+      }
+    },
+    "etag" : "fd6b96f902fb933e29cb64d32d49fe85b1b9c3d1e4108b90774f9b009867b25f",
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "641bcf20-b0a2-11f0-94c3-f75567048948"
+    },
+    "fileName" : "off.svg",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "641bcf20-b0a2-11f0-94c3-f75567048948"
+    },
+    "link" : "/api/images/tenant/off.svg",
+    "name" : "off.svg",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/SEiwVJ2wD0VRYckpyJouA9TEz5YMqjvd",
+    "publicResourceKey" : "SEiwVJ2wD0VRYckpyJouA9TEz5YMqjvd",
+    "resourceKey" : "off.svg",
+    "resourceSubType" : "IMAGE",
+    "resourceType" : "IMAGE",
+    "title" : "off.svg"
+  }
+}

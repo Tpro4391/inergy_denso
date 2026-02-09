@@ -1,0 +1,25 @@
+{
+  "entityType" : "WIDGETS_BUNDLE",
+  "entity" : {
+    "alias" : "scada_tien",
+    "description" : "",
+    "externalId" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "1846e9e0-fe64-11ef-81d8-3ffb318f1501"
+    },
+    "id" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "1846e9e0-fe64-11ef-81d8-3ffb318f1501"
+    },
+    "image" : "",
+    "name" : "Scada-Tien",
+    "order" : null,
+    "scada" : true,
+    "title" : "Scada-Tien"
+  },
+  "fqns" : [ "tram_ba1_svg", "tram_ba2_svg", "acb_svg", "hp_vertical_connector", "hp_vertical_connector2", "b_ng_kw2", "bang_hien_kw_svg" ],
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

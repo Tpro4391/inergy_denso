@@ -1,0 +1,125 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "lastConnectedGateway" : "44ae6e90-d569-11f0-a5cd-018a63ea0b87"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f2559730-0589-11f1-abf4-490de52379ba"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "c932ba20-f4dd-11f0-a222-ab6ad83c0b4c"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "9fb74d80-f4df-11f0-a222-ab6ad83c0b4c"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "9fb74d80-f4df-11f0-a222-ab6ad83c0b4c"
+    },
+    "label" : "PLC Air Pro4_MC",
+    "name" : "PLC Air Pro4_MC",
+    "softwareId" : null,
+    "type" : "PLC"
+  },
+  "credentials" : {
+    "credentialsId" : "EfA1CdDh8Y7inFuJHozd",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "44ae6e90-d569-11f0-a5cd-018a63ea0b87"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "9fb74d80-f4df-11f0-a222-ab6ad83c0b4c"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 6533
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1769157197338,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1769157197288,
+      "longValue" : 1769157197288,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "ip",
+      "lastUpdateTs" : 1768790796037,
+      "longValue" : null,
+      "strValue" : "172.26.16.12"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1769099211651,
+      "longValue" : 1769099211017,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1768810814068,
+      "longValue" : 1768810814068,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1768810799006,
+      "longValue" : 1768810799006,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1768791084997,
+      "longValue" : null,
+      "strValue" : "0.47542977942642894"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.7455500587125843,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1768791084997,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

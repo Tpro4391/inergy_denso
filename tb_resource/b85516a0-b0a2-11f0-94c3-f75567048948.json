@@ -1,0 +1,40 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "data" : "PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAyMDAwMDMwMyBTdHlsYWJsZS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAwLzAzL1dELVNWRy0yMDAwMDMwMy9EVEQvc3ZnLTIwMDAwMzAzLXN0eWxhYmxlLmR0ZCJbXT48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCIgdmlld0JveD0iMCAwIDk5OSA5OTkiPjxjaXJjbGUgc3R5bGU9ImZpbGw6IzAwMCIgY3g9IjQ5OSIgY3k9IjQ5OSIgcj0iNDk5IiAvPjxwYXRoIHN0eWxlPSJmaWxsOiNmMDA7c3Ryb2tlOiM0YzRjNGM7c3Ryb2tlLXdpZHRoOjIiIGQ9Ik0yMiw0OTcgbDM0LC0xNzggMTA0LC0xNTkgMTYyLC0xMDcgMTc1LC0zNCAxODIsMzQgMTU5LDEwNyAxMDcsMTU5IDM0LDE3OCAtMzQsMTc5IC0xMDcsMTYyIC0xNTksMTA0IC0xODIsMzQgLTE3NSwtMzQgLTE2MiwtMTA0IC0xMDQsLTE2MiAtMzQsLTE3OXoiIC8+PGNpcmNsZSBzdHlsZT0iZmlsbDojZmY2YjZiIiBjeD0iNDA2IiBjeT0iNDA1IiByPSIyOTEiIC8+PHBhdGggc3R5bGU9ImZpbGw6I2ZmYTNhMyIgZD0iTTE2MSwzNTcgbDE1LC03NCA0MSwtNjYgNjgsLTQ0IDc0LC0xMyA3NCwxMyA2Niw0NCA0NCw2NiAxNCw3NCAtMTQsNzQgLTQ0LDY4IC02Niw0MiAtNzQsMTQgLTc0LC0xNCAtNjgsLTQyIC00MSwtNjggLTE1LC03NHoiIC8+PHBhdGggc3R5bGU9ImZpbGw6I2ZmZDlkOSIgZD0iTTIwOCwzMTEgbDcsLTM5IDIyLC0zNSAzNywtMjIgMzcsLTcgNDAsNyAzNiwyMiAyMiwzNSA2LDM5IC02LDQwIC0yMiwzNCAtMzYsMjIgLTQwLDggLTM3LC04IC0zNywtMjIgLTIyLC0zNCAtNywtNDB6IiAvPjwvc3ZnPg==",
+    "descriptor" : {
+      "mediaType" : "image/svg+xml",
+      "width" : 64,
+      "height" : 64,
+      "size" : 856,
+      "etag" : "42e0a0119d50cf539ae2280545df2675c04010fac2d89214effdd18cb89a72ee",
+      "previewDescriptor" : {
+        "mediaType" : "image/svg+xml",
+        "width" : 64,
+        "height" : 64,
+        "size" : 856,
+        "etag" : "42e0a0119d50cf539ae2280545df2675c04010fac2d89214effdd18cb89a72ee"
+      }
+    },
+    "etag" : "42e0a0119d50cf539ae2280545df2675c04010fac2d89214effdd18cb89a72ee",
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "b85516a0-b0a2-11f0-94c3-f75567048948"
+    },
+    "fileName" : "alarm.svg",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "b85516a0-b0a2-11f0-94c3-f75567048948"
+    },
+    "link" : "/api/images/tenant/alarm.svg",
+    "name" : "alarm.svg",
+    "preview" : null,
+    "public" : true,
+    "publicLink" : "/api/images/public/GSF4h2OGYwknvJD9649qAv7VsGxUi5WU",
+    "publicResourceKey" : "GSF4h2OGYwknvJD9649qAv7VsGxUi5WU",
+    "resourceKey" : "alarm.svg",
+    "resourceSubType" : "IMAGE",
+    "resourceType" : "IMAGE",
+    "title" : "alarm.svg"
+  }
+}
